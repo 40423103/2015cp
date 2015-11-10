@@ -51,7 +51,7 @@
 <v t="amd.20151021113745.1"><vh>@edit notebook.py</vh></v>
 </v>
 </v>
-<v t="amd.20151021114454.1" a="E"><vh>@path user</vh>
+<v t="amd.20151021114454.1"><vh>@path user</vh>
 <v t="amd.20151021114529.1"><vh>各組員必須自行建立 以下節點</vh></v>
 <v t="amd.20151021114504.1" a="E"><vh>@path 9999</vh>
 <v t="amd.20151021114639.1"><vh>@edit 9999_cp_w1_p.html</vh></v>
@@ -64,7 +64,7 @@
 </v>
 </v>
 <v t="amd.20151021113722.1"></v>
-<v t="amd.20151021114454.1" a="E"></v>
+<v t="amd.20151021114454.1"></v>
 </vnodes>
 <tnodes>
 <t tx="amd.20150913232631.1"></t>
@@ -163,7 +163,7 @@ vertical: body pane on the botton</t>
 @others
 </t>
 <t tx="amd.20150915211351.12">&lt;section&gt;
-    &lt;h1&gt;第3張投影片&lt;/h1&gt;
+    &lt;h1&gt;心得與自評&lt;/h1&gt;
     &lt;p&gt;成績自評分數的量化依據?&lt;/p&gt;
     &lt;p&gt;可以連結到內部投影片&lt;a href="#/hw-task-one"&gt;作業任務一&lt;/a&gt;
 &lt;/section&gt;
@@ -196,15 +196,16 @@ vertical: body pane on the botton</t>
 &lt;!-- 每一個 section 都代表一張投影片,  --&gt;
 &lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
 &lt;section&gt;
-    &lt;h1&gt;有關我的作業&lt;/h1&gt;
-    &lt;p&gt;學號姓名與日期&lt;/p&gt;		
+    &lt;h2&gt;建立與刪除倉儲&lt;/h2&gt;
+    &lt;p&gt;40423103 劉怡萱 11/10&lt;/p&gt;		
 &lt;/section&gt;
 	
 </t>
 <t tx="amd.20150915211351.9">&lt;section id="hw-task-one"&gt;
-    &lt;h1&gt;作業任務一&lt;/h1&gt;
-    &lt;p&gt;有關作業任務一的說明&lt;/p&gt;
-    &lt;p&gt;請參考 &lt;a href="http://www.google.com"&gt;Google&lt;/a&gt;
+    &lt;h1&gt;建立倉儲&lt;/h1&gt;
+    &lt;p&gt;請點擊以下連結&lt;/p&gt;
+    &lt;p&gt;建立倉儲&lt;a href="https://vimeo.com/144982387"&gt;Google&lt;/a&gt;
+    &lt;p&gt;刪除倉儲&lt;a href="https://vimeo.com/144982406"&gt;Google&lt;/a&gt;
 &lt;/section&gt;
 				
 </t>
