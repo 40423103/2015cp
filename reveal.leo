@@ -25,14 +25,14 @@
 <v t="amd.20150919114010.1" a="E"><vh>@path pelican</vh>
 <v t="amd.20151006130205.1"><vh>@edit publishconf.py</vh></v>
 <v t="amd.20151006113136.1" a="E"><vh>@path content</vh>
-<v t="amd.20150919114035.1"><vh>@edit w1.md</vh></v>
-<v t="lys86212.20151110210445.1"><vh>@edit w2.md</vh></v>
-<v t="lys86212.20151110210448.1"><vh>@edit w3.md</vh></v>
-<v t="lys86212.20151110210449.1"><vh>@edit w4.md</vh></v>
-<v t="lys86212.20151110210451.1"><vh>@edit w5.md</vh></v>
-<v t="lys86212.20151110210453.1"><vh>@edit w6.md</vh></v>
-<v t="lys86212.20151110210455.1"><vh>@edit w7.md</vh></v>
-<v t="lys86212.20151110210457.1"><vh>@edit w8.md</vh></v>
+<v t="amd.20150919114035.1"><vh>@edit 2015cp_hw_w1.md</vh></v>
+<v t="lys86212.20151110210445.1"><vh>@edit 2015cp_hw_w2.md</vh></v>
+<v t="lys86212.20151110210448.1"><vh>@edit 2015cp_hw_w3.md</vh></v>
+<v t="lys86212.20151110210449.1"><vh>@edit 2015cp_hw_w4.md</vh></v>
+<v t="lys86212.20151110210451.1"><vh>@edit 2015cp_hw_w5.md</vh></v>
+<v t="lys86212.20151110210453.1"><vh>@edit 2015cp_hw_w6.md</vh></v>
+<v t="lys86212.20151110210455.1"><vh>@edit 2015cp_hw_w7.md</vh></v>
+<v t="lys86212.20151110210457.1"><vh>@edit 2015cp_hw_w8.md</vh></v>
 </v>
 </v>
 </v>
