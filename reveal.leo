@@ -32,7 +32,7 @@
 <v t="lys86212.20151110210451.1"><vh>@edit 2015cp_hw_w5.md</vh></v>
 <v t="lys86212.20151110210453.1"><vh>@edit 2015cp_hw_w6.md</vh></v>
 <v t="lys86212.20151110210455.1"><vh>@edit 2015cp_hw_w7.md</vh></v>
-<v t="lys86212.20151110210457.1"><vh>@edit 2015cp_hw_w8.md</vh></v>
+<v t="lys86212.20151110210457.1"><vh>@edit w8.md</vh></v>
 </v>
 </v>
 </v>
