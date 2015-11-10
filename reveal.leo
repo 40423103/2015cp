@@ -26,6 +26,13 @@
 <v t="amd.20151006130205.1"><vh>@edit publishconf.py</vh></v>
 <v t="amd.20151006113136.1" a="E"><vh>@path content</vh>
 <v t="amd.20150919114035.1"><vh>@edit w1.md</vh></v>
+<v t="lys86212.20151110210445.1"><vh>@edit w2.md</vh></v>
+<v t="lys86212.20151110210448.1"><vh>@edit w3.md</vh></v>
+<v t="lys86212.20151110210449.1"><vh>@edit w4.md</vh></v>
+<v t="lys86212.20151110210451.1"><vh>@edit w5.md</vh></v>
+<v t="lys86212.20151110210453.1"><vh>@edit w6.md</vh></v>
+<v t="lys86212.20151110210455.1"><vh>@edit w7.md</vh></v>
+<v t="lys86212.20151110210457.1"><vh>@edit w8.md</vh></v>
 </v>
 </v>
 </v>
@@ -42,6 +49,111 @@
 </v>
 </v>
 <v t="amd.20150915211351.15"><vh>script</vh></v>
+</v>
+</v>
+</v>
+<v t="lys86212.20151110210428.1"><vh>@clean w2.html</vh>
+<v t="lys86212.20151110210428.2"><vh>檔案說明</vh></v>
+<v t="lys86212.20151110210428.3" a="E"><vh>html 標註</vh>
+<v t="lys86212.20151110210428.4" a="E"><vh>body 標註</vh>
+<v t="lys86212.20151110210428.5" a="E"><vh>div class="reveal"</vh>
+<v t="lys86212.20151110210428.6" a="E"><vh>div class="slides"</vh>
+<v t="lys86212.20151110210428.7"><vh>有關我的作業</vh></v>
+<v t="lys86212.20151110210428.8"><vh>作業任務一</vh></v>
+<v t="lys86212.20151110210428.9"><vh>第3張投影片</vh></v>
+</v>
+</v>
+<v t="lys86212.20151110210428.10"><vh>script</vh></v>
+</v>
+</v>
+</v>
+<v t="lys86212.20151110210431.1"><vh>@clean w3.html</vh>
+<v t="lys86212.20151110210431.2"><vh>檔案說明</vh></v>
+<v t="lys86212.20151110210431.3" a="E"><vh>html 標註</vh>
+<v t="lys86212.20151110210431.4" a="E"><vh>body 標註</vh>
+<v t="lys86212.20151110210431.5" a="E"><vh>div class="reveal"</vh>
+<v t="lys86212.20151110210431.6" a="E"><vh>div class="slides"</vh>
+<v t="lys86212.20151110210431.7"><vh>有關我的作業</vh></v>
+<v t="lys86212.20151110210431.8"><vh>作業任務一</vh></v>
+<v t="lys86212.20151110210431.9"><vh>第3張投影片</vh></v>
+</v>
+</v>
+<v t="lys86212.20151110210431.10"><vh>script</vh></v>
+</v>
+</v>
+</v>
+<v t="lys86212.20151110210433.1"><vh>@clean w4.html</vh>
+<v t="lys86212.20151110210433.2"><vh>檔案說明</vh></v>
+<v t="lys86212.20151110210433.3" a="E"><vh>html 標註</vh>
+<v t="lys86212.20151110210433.4" a="E"><vh>body 標註</vh>
+<v t="lys86212.20151110210433.5" a="E"><vh>div class="reveal"</vh>
+<v t="lys86212.20151110210433.6" a="E"><vh>div class="slides"</vh>
+<v t="lys86212.20151110210433.7"><vh>有關我的作業</vh></v>
+<v t="lys86212.20151110210433.8"><vh>作業任務一</vh></v>
+<v t="lys86212.20151110210433.9"><vh>第3張投影片</vh></v>
+</v>
+</v>
+<v t="lys86212.20151110210433.10"><vh>script</vh></v>
+</v>
+</v>
+</v>
+<v t="lys86212.20151110210436.1"><vh>@clean w5.html</vh>
+<v t="lys86212.20151110210436.2"><vh>檔案說明</vh></v>
+<v t="lys86212.20151110210436.3" a="E"><vh>html 標註</vh>
+<v t="lys86212.20151110210436.4" a="E"><vh>body 標註</vh>
+<v t="lys86212.20151110210436.5" a="E"><vh>div class="reveal"</vh>
+<v t="lys86212.20151110210436.6" a="E"><vh>div class="slides"</vh>
+<v t="lys86212.20151110210436.7"><vh>有關我的作業</vh></v>
+<v t="lys86212.20151110210436.8"><vh>作業任務一</vh></v>
+<v t="lys86212.20151110210436.9"><vh>第3張投影片</vh></v>
+</v>
+</v>
+<v t="lys86212.20151110210436.10"><vh>script</vh></v>
+</v>
+</v>
+</v>
+<v t="lys86212.20151110210437.1"><vh>@clean w6.html</vh>
+<v t="lys86212.20151110210437.2"><vh>檔案說明</vh></v>
+<v t="lys86212.20151110210437.3" a="E"><vh>html 標註</vh>
+<v t="lys86212.20151110210437.4" a="E"><vh>body 標註</vh>
+<v t="lys86212.20151110210437.5" a="E"><vh>div class="reveal"</vh>
+<v t="lys86212.20151110210437.6" a="E"><vh>div class="slides"</vh>
+<v t="lys86212.20151110210437.7"><vh>有關我的作業</vh></v>
+<v t="lys86212.20151110210437.8"><vh>作業任務一</vh></v>
+<v t="lys86212.20151110210437.9"><vh>第3張投影片</vh></v>
+</v>
+</v>
+<v t="lys86212.20151110210437.10"><vh>script</vh></v>
+</v>
+</v>
+</v>
+<v t="lys86212.20151110210439.1"><vh>@clean w7.html</vh>
+<v t="lys86212.20151110210439.2"><vh>檔案說明</vh></v>
+<v t="lys86212.20151110210439.3" a="E"><vh>html 標註</vh>
+<v t="lys86212.20151110210439.4" a="E"><vh>body 標註</vh>
+<v t="lys86212.20151110210439.5" a="E"><vh>div class="reveal"</vh>
+<v t="lys86212.20151110210439.6" a="E"><vh>div class="slides"</vh>
+<v t="lys86212.20151110210439.7"><vh>有關我的作業</vh></v>
+<v t="lys86212.20151110210439.8"><vh>作業任務一</vh></v>
+<v t="lys86212.20151110210439.9"><vh>第3張投影片</vh></v>
+</v>
+</v>
+<v t="lys86212.20151110210439.10"><vh>script</vh></v>
+</v>
+</v>
+</v>
+<v t="lys86212.20151110210441.1"><vh>@clean w8.html</vh>
+<v t="lys86212.20151110210441.2"><vh>檔案說明</vh></v>
+<v t="lys86212.20151110210441.3" a="E"><vh>html 標註</vh>
+<v t="lys86212.20151110210441.4" a="E"><vh>body 標註</vh>
+<v t="lys86212.20151110210441.5" a="E"><vh>div class="reveal"</vh>
+<v t="lys86212.20151110210441.6" a="E"><vh>div class="slides"</vh>
+<v t="lys86212.20151110210441.7"><vh>有關我的作業</vh></v>
+<v t="lys86212.20151110210441.8"><vh>作業任務一</vh></v>
+<v t="lys86212.20151110210441.9"><vh>第3張投影片</vh></v>
+</v>
+</v>
+<v t="lys86212.20151110210441.10"><vh>script</vh></v>
 </v>
 </v>
 </v>
@@ -164,8 +276,8 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="amd.20150915211351.12">&lt;section&gt;
     &lt;h1&gt;心得與自評&lt;/h1&gt;
-    &lt;p&gt;成績自評分數的量化依據?&lt;/p&gt;
-    &lt;p&gt;可以連結到內部投影片&lt;a href="#/hw-task-one"&gt;作業任務一&lt;/a&gt;
+    &lt;p&gt;心得：因為完全沒碰過這方面的東西,老師課堂上講的東西幾乎都聽不懂,只能茫然地跟著老師給的指令做,然後只要成功就會很開心~~&lt;/p&gt;
+    &lt;p&gt;自評：雖然沒有做很多東西,但是這兩個影片也是用了好久,給自己打個 7 0 分~~&lt;/p&gt;
 &lt;/section&gt;
 				
 </t>
@@ -196,16 +308,18 @@ vertical: body pane on the botton</t>
 &lt;!-- 每一個 section 都代表一張投影片,  --&gt;
 &lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
 &lt;section&gt;
-    &lt;h1&gt;建立與刪除倉儲&lt;/h1&gt;
+    &lt;h1&gt;建立/刪除倉儲&lt;/h1&gt;
     &lt;p&gt;40423103 劉怡萱 11/10&lt;/p&gt;		
 &lt;/section&gt;
 	
 </t>
 <t tx="amd.20150915211351.9">&lt;section id="hw-task-one"&gt;
-    &lt;h1&gt;建立倉儲&lt;/h1&gt;
-    &lt;p&gt;請點擊以下連結&lt;/p&gt;
-    &lt;p&gt;或至下面影片觀看&lt;/p&gt;
+    &lt;h2&gt;建立/刪除倉儲的步驟&lt;/h2&gt;
+    &lt;p&gt;                                                             &lt;/p&gt;
+    &lt;p&gt;請點擊以下連結或至頁面下方觀看影片&lt;/p&gt;
+    &lt;p&gt;                                                             &lt;/p&gt;
     &lt;p&gt;&lt;a href="https://vimeo.com/144982387"&gt;建立倉儲&lt;/a&gt;
+    &lt;p&gt;                                                             &lt;/p&gt;
     &lt;p&gt;&lt;a href="https://vimeo.com/144982406"&gt;刪除倉儲&lt;/a&gt;
 &lt;/section&gt;
 				
@@ -264,5 +378,537 @@ jupyter notebook
 import os
 os.system("pelican pelican/content -o ./ -s pelican/publishconf.py -t theme/pelican-octopress")
 g.es("admin pelican 執行完畢")</t>
+<t tx="lys86212.20151110210428.1">@language xml
+@tabwidth -4
+@others
+
+</t>
+<t tx="lys86212.20151110210428.10">&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+&lt;/script&gt;
+	
+</t>
+<t tx="lys86212.20151110210428.2">&lt;!--
+這個檔案展示了 reveal.js 投影片資料的基本架構
+其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
+而各投影片則以 &lt;section&gt;&lt;/section&gt; 標示
+且支援平行與垂直的投影片配置方法
+--&gt;
+</t>
+<t tx="lys86212.20151110210428.3">&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;title&gt;最簡單的 reveal 超文件&lt;/title&gt;
+&lt;link rel="stylesheet" href="css/reveal.min.css"&gt;
+	&lt;link rel="stylesheet" href="css/theme/default.css" id="theme"&gt;	
+	&lt;!--增加對於 IE 早期版本的支援 --&gt;
+	&lt;!--[if lt IE 9]&gt;
+	&lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+&lt;/head&gt;
+@others
+</t>
+<t tx="lys86212.20151110210428.4">&lt;body&gt;
+@others
+&lt;/body&gt;
+</t>
+<t tx="lys86212.20151110210428.5">&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
+&lt;div class="reveal"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="lys86212.20151110210428.6">&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
+&lt;div class="slides"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="lys86212.20151110210428.7">&lt;!-- 以下為投影片 --&gt;
+&lt;!-- 每一個 section 都代表一張投影片,  --&gt;
+&lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
+&lt;section&gt;
+    &lt;h1&gt;建立/刪除倉儲&lt;/h1&gt;
+    &lt;p&gt;40423103 劉怡萱 11/10&lt;/p&gt;		
+&lt;/section&gt;
+	
+</t>
+<t tx="lys86212.20151110210428.8">&lt;section id="hw-task-one"&gt;
+    &lt;h2&gt;建立/刪除倉儲的步驟&lt;/h2&gt;
+    &lt;p&gt;                                                             &lt;/p&gt;
+    &lt;p&gt;請點擊以下連結或至頁面下方觀看影片&lt;/p&gt;
+    &lt;p&gt;                                                             &lt;/p&gt;
+    &lt;p&gt;&lt;a href="https://vimeo.com/144982387"&gt;建立倉儲&lt;/a&gt;
+    &lt;p&gt;                                                             &lt;/p&gt;
+    &lt;p&gt;&lt;a href="https://vimeo.com/144982406"&gt;刪除倉儲&lt;/a&gt;
+&lt;/section&gt;
+				
+</t>
+<t tx="lys86212.20151110210428.9">&lt;section&gt;
+    &lt;h1&gt;心得與自評&lt;/h1&gt;
+    &lt;p&gt;心得：因為完全沒碰過這方面的東西,老師課堂上講的東西幾乎都聽不懂,只能茫然地跟著老師給的指令做,然後只要成功就會很開心xD&lt;/p&gt;
+    &lt;p&gt;自評：雖然沒有做很多東西,但是這兩個影片也是用了好久阿QQ,給自己打個 7 0 分~~&lt;/p&gt;
+&lt;/section&gt;
+				
+</t>
+<t tx="lys86212.20151110210431.1">@language xml
+@tabwidth -4
+@others
+
+</t>
+<t tx="lys86212.20151110210431.10">&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+&lt;/script&gt;
+	
+</t>
+<t tx="lys86212.20151110210431.2">&lt;!--
+這個檔案展示了 reveal.js 投影片資料的基本架構
+其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
+而各投影片則以 &lt;section&gt;&lt;/section&gt; 標示
+且支援平行與垂直的投影片配置方法
+--&gt;
+</t>
+<t tx="lys86212.20151110210431.3">&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;title&gt;最簡單的 reveal 超文件&lt;/title&gt;
+&lt;link rel="stylesheet" href="css/reveal.min.css"&gt;
+	&lt;link rel="stylesheet" href="css/theme/default.css" id="theme"&gt;	
+	&lt;!--增加對於 IE 早期版本的支援 --&gt;
+	&lt;!--[if lt IE 9]&gt;
+	&lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+&lt;/head&gt;
+@others
+</t>
+<t tx="lys86212.20151110210431.4">&lt;body&gt;
+@others
+&lt;/body&gt;
+</t>
+<t tx="lys86212.20151110210431.5">&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
+&lt;div class="reveal"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="lys86212.20151110210431.6">&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
+&lt;div class="slides"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="lys86212.20151110210431.7">&lt;!-- 以下為投影片 --&gt;
+&lt;!-- 每一個 section 都代表一張投影片,  --&gt;
+&lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
+&lt;section&gt;
+    &lt;h1&gt;建立/刪除倉儲&lt;/h1&gt;
+    &lt;p&gt;40423103 劉怡萱 11/10&lt;/p&gt;		
+&lt;/section&gt;
+	
+</t>
+<t tx="lys86212.20151110210431.8">&lt;section id="hw-task-one"&gt;
+    &lt;h2&gt;建立/刪除倉儲的步驟&lt;/h2&gt;
+    &lt;p&gt;                                                             &lt;/p&gt;
+    &lt;p&gt;請點擊以下連結或至頁面下方觀看影片&lt;/p&gt;
+    &lt;p&gt;                                                             &lt;/p&gt;
+    &lt;p&gt;&lt;a href="https://vimeo.com/144982387"&gt;建立倉儲&lt;/a&gt;
+    &lt;p&gt;                                                             &lt;/p&gt;
+    &lt;p&gt;&lt;a href="https://vimeo.com/144982406"&gt;刪除倉儲&lt;/a&gt;
+&lt;/section&gt;
+				
+</t>
+<t tx="lys86212.20151110210431.9">&lt;section&gt;
+    &lt;h1&gt;心得與自評&lt;/h1&gt;
+    &lt;p&gt;心得：因為完全沒碰過這方面的東西,老師課堂上講的東西幾乎都聽不懂,只能茫然地跟著老師給的指令做,然後只要成功就會很開心xD&lt;/p&gt;
+    &lt;p&gt;自評：雖然沒有做很多東西,但是這兩個影片也是用了好久阿QQ,給自己打個 7 0 分~~&lt;/p&gt;
+&lt;/section&gt;
+				
+</t>
+<t tx="lys86212.20151110210433.1">@language xml
+@tabwidth -4
+@others
+
+</t>
+<t tx="lys86212.20151110210433.10">&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+&lt;/script&gt;
+	
+</t>
+<t tx="lys86212.20151110210433.2">&lt;!--
+這個檔案展示了 reveal.js 投影片資料的基本架構
+其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
+而各投影片則以 &lt;section&gt;&lt;/section&gt; 標示
+且支援平行與垂直的投影片配置方法
+--&gt;
+</t>
+<t tx="lys86212.20151110210433.3">&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;title&gt;最簡單的 reveal 超文件&lt;/title&gt;
+&lt;link rel="stylesheet" href="css/reveal.min.css"&gt;
+	&lt;link rel="stylesheet" href="css/theme/default.css" id="theme"&gt;	
+	&lt;!--增加對於 IE 早期版本的支援 --&gt;
+	&lt;!--[if lt IE 9]&gt;
+	&lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+&lt;/head&gt;
+@others
+</t>
+<t tx="lys86212.20151110210433.4">&lt;body&gt;
+@others
+&lt;/body&gt;
+</t>
+<t tx="lys86212.20151110210433.5">&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
+&lt;div class="reveal"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="lys86212.20151110210433.6">&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
+&lt;div class="slides"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="lys86212.20151110210433.7">&lt;!-- 以下為投影片 --&gt;
+&lt;!-- 每一個 section 都代表一張投影片,  --&gt;
+&lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
+&lt;section&gt;
+    &lt;h1&gt;建立/刪除倉儲&lt;/h1&gt;
+    &lt;p&gt;40423103 劉怡萱 11/10&lt;/p&gt;		
+&lt;/section&gt;
+	
+</t>
+<t tx="lys86212.20151110210433.8">&lt;section id="hw-task-one"&gt;
+    &lt;h2&gt;建立/刪除倉儲的步驟&lt;/h2&gt;
+    &lt;p&gt;                                                             &lt;/p&gt;
+    &lt;p&gt;請點擊以下連結或至頁面下方觀看影片&lt;/p&gt;
+    &lt;p&gt;                                                             &lt;/p&gt;
+    &lt;p&gt;&lt;a href="https://vimeo.com/144982387"&gt;建立倉儲&lt;/a&gt;
+    &lt;p&gt;                                                             &lt;/p&gt;
+    &lt;p&gt;&lt;a href="https://vimeo.com/144982406"&gt;刪除倉儲&lt;/a&gt;
+&lt;/section&gt;
+				
+</t>
+<t tx="lys86212.20151110210433.9">&lt;section&gt;
+    &lt;h1&gt;心得與自評&lt;/h1&gt;
+    &lt;p&gt;心得：因為完全沒碰過這方面的東西,老師課堂上講的東西幾乎都聽不懂,只能茫然地跟著老師給的指令做,然後只要成功就會很開心xD&lt;/p&gt;
+    &lt;p&gt;自評：雖然沒有做很多東西,但是這兩個影片也是用了好久阿QQ,給自己打個 7 0 分~~&lt;/p&gt;
+&lt;/section&gt;
+				
+</t>
+<t tx="lys86212.20151110210436.1">@language xml
+@tabwidth -4
+@others
+
+</t>
+<t tx="lys86212.20151110210436.10">&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+&lt;/script&gt;
+	
+</t>
+<t tx="lys86212.20151110210436.2">&lt;!--
+這個檔案展示了 reveal.js 投影片資料的基本架構
+其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
+而各投影片則以 &lt;section&gt;&lt;/section&gt; 標示
+且支援平行與垂直的投影片配置方法
+--&gt;
+</t>
+<t tx="lys86212.20151110210436.3">&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;title&gt;最簡單的 reveal 超文件&lt;/title&gt;
+&lt;link rel="stylesheet" href="css/reveal.min.css"&gt;
+	&lt;link rel="stylesheet" href="css/theme/default.css" id="theme"&gt;	
+	&lt;!--增加對於 IE 早期版本的支援 --&gt;
+	&lt;!--[if lt IE 9]&gt;
+	&lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+&lt;/head&gt;
+@others
+</t>
+<t tx="lys86212.20151110210436.4">&lt;body&gt;
+@others
+&lt;/body&gt;
+</t>
+<t tx="lys86212.20151110210436.5">&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
+&lt;div class="reveal"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="lys86212.20151110210436.6">&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
+&lt;div class="slides"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="lys86212.20151110210436.7">&lt;!-- 以下為投影片 --&gt;
+&lt;!-- 每一個 section 都代表一張投影片,  --&gt;
+&lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
+&lt;section&gt;
+    &lt;h1&gt;建立/刪除倉儲&lt;/h1&gt;
+    &lt;p&gt;40423103 劉怡萱 11/10&lt;/p&gt;		
+&lt;/section&gt;
+	
+</t>
+<t tx="lys86212.20151110210436.8">&lt;section id="hw-task-one"&gt;
+    &lt;h2&gt;建立/刪除倉儲的步驟&lt;/h2&gt;
+    &lt;p&gt;                                                             &lt;/p&gt;
+    &lt;p&gt;請點擊以下連結或至頁面下方觀看影片&lt;/p&gt;
+    &lt;p&gt;                                                             &lt;/p&gt;
+    &lt;p&gt;&lt;a href="https://vimeo.com/144982387"&gt;建立倉儲&lt;/a&gt;
+    &lt;p&gt;                                                             &lt;/p&gt;
+    &lt;p&gt;&lt;a href="https://vimeo.com/144982406"&gt;刪除倉儲&lt;/a&gt;
+&lt;/section&gt;
+				
+</t>
+<t tx="lys86212.20151110210436.9">&lt;section&gt;
+    &lt;h1&gt;心得與自評&lt;/h1&gt;
+    &lt;p&gt;心得：因為完全沒碰過這方面的東西,老師課堂上講的東西幾乎都聽不懂,只能茫然地跟著老師給的指令做,然後只要成功就會很開心xD&lt;/p&gt;
+    &lt;p&gt;自評：雖然沒有做很多東西,但是這兩個影片也是用了好久阿QQ,給自己打個 7 0 分~~&lt;/p&gt;
+&lt;/section&gt;
+				
+</t>
+<t tx="lys86212.20151110210437.1">@language xml
+@tabwidth -4
+@others
+
+</t>
+<t tx="lys86212.20151110210437.10">&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+&lt;/script&gt;
+	
+</t>
+<t tx="lys86212.20151110210437.2">&lt;!--
+這個檔案展示了 reveal.js 投影片資料的基本架構
+其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
+而各投影片則以 &lt;section&gt;&lt;/section&gt; 標示
+且支援平行與垂直的投影片配置方法
+--&gt;
+</t>
+<t tx="lys86212.20151110210437.3">&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;title&gt;最簡單的 reveal 超文件&lt;/title&gt;
+&lt;link rel="stylesheet" href="css/reveal.min.css"&gt;
+	&lt;link rel="stylesheet" href="css/theme/default.css" id="theme"&gt;	
+	&lt;!--增加對於 IE 早期版本的支援 --&gt;
+	&lt;!--[if lt IE 9]&gt;
+	&lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+&lt;/head&gt;
+@others
+</t>
+<t tx="lys86212.20151110210437.4">&lt;body&gt;
+@others
+&lt;/body&gt;
+</t>
+<t tx="lys86212.20151110210437.5">&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
+&lt;div class="reveal"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="lys86212.20151110210437.6">&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
+&lt;div class="slides"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="lys86212.20151110210437.7">&lt;!-- 以下為投影片 --&gt;
+&lt;!-- 每一個 section 都代表一張投影片,  --&gt;
+&lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
+&lt;section&gt;
+    &lt;h1&gt;建立/刪除倉儲&lt;/h1&gt;
+    &lt;p&gt;40423103 劉怡萱 11/10&lt;/p&gt;		
+&lt;/section&gt;
+	
+</t>
+<t tx="lys86212.20151110210437.8">&lt;section id="hw-task-one"&gt;
+    &lt;h2&gt;建立/刪除倉儲的步驟&lt;/h2&gt;
+    &lt;p&gt;                                                             &lt;/p&gt;
+    &lt;p&gt;請點擊以下連結或至頁面下方觀看影片&lt;/p&gt;
+    &lt;p&gt;                                                             &lt;/p&gt;
+    &lt;p&gt;&lt;a href="https://vimeo.com/144982387"&gt;建立倉儲&lt;/a&gt;
+    &lt;p&gt;                                                             &lt;/p&gt;
+    &lt;p&gt;&lt;a href="https://vimeo.com/144982406"&gt;刪除倉儲&lt;/a&gt;
+&lt;/section&gt;
+				
+</t>
+<t tx="lys86212.20151110210437.9">&lt;section&gt;
+    &lt;h1&gt;心得與自評&lt;/h1&gt;
+    &lt;p&gt;心得：因為完全沒碰過這方面的東西,老師課堂上講的東西幾乎都聽不懂,只能茫然地跟著老師給的指令做,然後只要成功就會很開心xD&lt;/p&gt;
+    &lt;p&gt;自評：雖然沒有做很多東西,但是這兩個影片也是用了好久阿QQ,給自己打個 7 0 分~~&lt;/p&gt;
+&lt;/section&gt;
+				
+</t>
+<t tx="lys86212.20151110210439.1">@language xml
+@tabwidth -4
+@others
+
+</t>
+<t tx="lys86212.20151110210439.10">&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+&lt;/script&gt;
+	
+</t>
+<t tx="lys86212.20151110210439.2">&lt;!--
+這個檔案展示了 reveal.js 投影片資料的基本架構
+其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
+而各投影片則以 &lt;section&gt;&lt;/section&gt; 標示
+且支援平行與垂直的投影片配置方法
+--&gt;
+</t>
+<t tx="lys86212.20151110210439.3">&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;title&gt;最簡單的 reveal 超文件&lt;/title&gt;
+&lt;link rel="stylesheet" href="css/reveal.min.css"&gt;
+	&lt;link rel="stylesheet" href="css/theme/default.css" id="theme"&gt;	
+	&lt;!--增加對於 IE 早期版本的支援 --&gt;
+	&lt;!--[if lt IE 9]&gt;
+	&lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+&lt;/head&gt;
+@others
+</t>
+<t tx="lys86212.20151110210439.4">&lt;body&gt;
+@others
+&lt;/body&gt;
+</t>
+<t tx="lys86212.20151110210439.5">&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
+&lt;div class="reveal"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="lys86212.20151110210439.6">&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
+&lt;div class="slides"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="lys86212.20151110210439.7">&lt;!-- 以下為投影片 --&gt;
+&lt;!-- 每一個 section 都代表一張投影片,  --&gt;
+&lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
+&lt;section&gt;
+    &lt;h1&gt;建立/刪除倉儲&lt;/h1&gt;
+    &lt;p&gt;40423103 劉怡萱 11/10&lt;/p&gt;		
+&lt;/section&gt;
+	
+</t>
+<t tx="lys86212.20151110210439.8">&lt;section id="hw-task-one"&gt;
+    &lt;h2&gt;建立/刪除倉儲的步驟&lt;/h2&gt;
+    &lt;p&gt;                                                             &lt;/p&gt;
+    &lt;p&gt;請點擊以下連結或至頁面下方觀看影片&lt;/p&gt;
+    &lt;p&gt;                                                             &lt;/p&gt;
+    &lt;p&gt;&lt;a href="https://vimeo.com/144982387"&gt;建立倉儲&lt;/a&gt;
+    &lt;p&gt;                                                             &lt;/p&gt;
+    &lt;p&gt;&lt;a href="https://vimeo.com/144982406"&gt;刪除倉儲&lt;/a&gt;
+&lt;/section&gt;
+				
+</t>
+<t tx="lys86212.20151110210439.9">&lt;section&gt;
+    &lt;h1&gt;心得與自評&lt;/h1&gt;
+    &lt;p&gt;心得：因為完全沒碰過這方面的東西,老師課堂上講的東西幾乎都聽不懂,只能茫然地跟著老師給的指令做,然後只要成功就會很開心xD&lt;/p&gt;
+    &lt;p&gt;自評：雖然沒有做很多東西,但是這兩個影片也是用了好久阿QQ,給自己打個 7 0 分~~&lt;/p&gt;
+&lt;/section&gt;
+				
+</t>
+<t tx="lys86212.20151110210441.1">@language xml
+@tabwidth -4
+@others
+
+</t>
+<t tx="lys86212.20151110210441.10">&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+&lt;/script&gt;
+	
+</t>
+<t tx="lys86212.20151110210441.2">&lt;!--
+這個檔案展示了 reveal.js 投影片資料的基本架構
+其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
+而各投影片則以 &lt;section&gt;&lt;/section&gt; 標示
+且支援平行與垂直的投影片配置方法
+--&gt;
+</t>
+<t tx="lys86212.20151110210441.3">&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;title&gt;最簡單的 reveal 超文件&lt;/title&gt;
+&lt;link rel="stylesheet" href="css/reveal.min.css"&gt;
+	&lt;link rel="stylesheet" href="css/theme/default.css" id="theme"&gt;	
+	&lt;!--增加對於 IE 早期版本的支援 --&gt;
+	&lt;!--[if lt IE 9]&gt;
+	&lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+&lt;/head&gt;
+@others
+</t>
+<t tx="lys86212.20151110210441.4">&lt;body&gt;
+@others
+&lt;/body&gt;
+</t>
+<t tx="lys86212.20151110210441.5">&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
+&lt;div class="reveal"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="lys86212.20151110210441.6">&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
+&lt;div class="slides"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="lys86212.20151110210441.7">&lt;!-- 以下為投影片 --&gt;
+&lt;!-- 每一個 section 都代表一張投影片,  --&gt;
+&lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
+&lt;section&gt;
+    &lt;h1&gt;建立/刪除倉儲&lt;/h1&gt;
+    &lt;p&gt;40423103 劉怡萱 11/10&lt;/p&gt;		
+&lt;/section&gt;
+	
+</t>
+<t tx="lys86212.20151110210441.8">&lt;section id="hw-task-one"&gt;
+    &lt;h2&gt;建立/刪除倉儲的步驟&lt;/h2&gt;
+    &lt;p&gt;                                                             &lt;/p&gt;
+    &lt;p&gt;請點擊以下連結或至頁面下方觀看影片&lt;/p&gt;
+    &lt;p&gt;                                                             &lt;/p&gt;
+    &lt;p&gt;&lt;a href="https://vimeo.com/144982387"&gt;建立倉儲&lt;/a&gt;
+    &lt;p&gt;                                                             &lt;/p&gt;
+    &lt;p&gt;&lt;a href="https://vimeo.com/144982406"&gt;刪除倉儲&lt;/a&gt;
+&lt;/section&gt;
+				
+</t>
+<t tx="lys86212.20151110210441.9">&lt;section&gt;
+    &lt;h1&gt;心得與自評&lt;/h1&gt;
+    &lt;p&gt;心得：因為完全沒碰過這方面的東西,老師課堂上講的東西幾乎都聽不懂,只能茫然地跟著老師給的指令做,然後只要成功就會很開心xD&lt;/p&gt;
+    &lt;p&gt;自評：雖然沒有做很多東西,但是這兩個影片也是用了好久阿QQ,給自己打個 7 0 分~~&lt;/p&gt;
+&lt;/section&gt;
+				
+</t>
 </tnodes>
 </leo_file>
