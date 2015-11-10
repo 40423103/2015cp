@@ -196,7 +196,7 @@ vertical: body pane on the botton</t>
 &lt;!-- 每一個 section 都代表一張投影片,  --&gt;
 &lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
 &lt;section&gt;
-    &lt;h2&gt;建立與刪除倉儲&lt;/h2&gt;
+    &lt;h1&gt;建立與刪除倉儲&lt;/h1&gt;
     &lt;p&gt;40423103 劉怡萱 11/10&lt;/p&gt;		
 &lt;/section&gt;
 	
@@ -204,8 +204,9 @@ vertical: body pane on the botton</t>
 <t tx="amd.20150915211351.9">&lt;section id="hw-task-one"&gt;
     &lt;h1&gt;建立倉儲&lt;/h1&gt;
     &lt;p&gt;請點擊以下連結&lt;/p&gt;
-    &lt;p&gt;建立倉儲&lt;a href="https://vimeo.com/144982387"&gt;Google&lt;/a&gt;
-    &lt;p&gt;刪除倉儲&lt;a href="https://vimeo.com/144982406"&gt;Google&lt;/a&gt;
+    &lt;p&gt;或至下面影片觀看&lt;/p&gt;
+    &lt;p&gt;&lt;a href="https://vimeo.com/144982387"&gt;建立倉儲&lt;/a&gt;
+    &lt;p&gt;&lt;a href="https://vimeo.com/144982406"&gt;刪除倉儲&lt;/a&gt;
 &lt;/section&gt;
 				
 </t>
