@@ -25,8 +25,8 @@
 <v t="amd.20150919114010.1" a="E"><vh>@path pelican</vh>
 <v t="amd.20151006130205.1"><vh>@edit publishconf.py</vh></v>
 <v t="amd.20151006113136.1" a="E"><vh>@path content</vh>
-<v t="amd.20150919114035.1"><vh>@edit 2015cp_hw_w1.md</vh></v>
-<v t="leo.20151113113653.1"><vh>@edit 2015cp_hw_w2.md</vh></v>
+<v t="leo.20151113113653.1"><vh>@edit 2015cp_hw_w1.md</vh></v>
+<v t="leo.20151113115156.1"><vh>@edit 2015cp_hw_w2.md</vh></v>
 <v t="leo.20151113113655.1"><vh>@edit 2015cp_hw_w3.md</vh></v>
 <v t="leo.20151113113657.1"><vh>@edit 2015cp_hw_w4.md</vh></v>
 <v t="leo.20151113113700.1"><vh>@edit 2015cp_hw_w5.md</vh></v>
