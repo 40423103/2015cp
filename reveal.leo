@@ -25,34 +25,17 @@
 <v t="amd.20150919114010.1" a="E"><vh>@path pelican</vh>
 <v t="amd.20151006130205.1"><vh>@edit publishconf.py</vh></v>
 <v t="amd.20151006113136.1" a="E"><vh>@path content</vh>
-<v t="leo.20151113113653.1"><vh>@edit 2015cp_hw_w1.md</vh></v>
-<v t="leo.20151113115156.1"><vh>@edit 2015cp_hw_w2.md</vh></v>
+<v t="lys86212.20151117012523.1"><vh>@edit 2015cp_hw_w1.md</vh></v>
+<v t="lys86212.20151117012303.1"><vh>@edit 2015cp_hw_w2.md</vh></v>
 <v t="leo.20151113113655.1"><vh>@edit 2015cp_hw_w3.md</vh></v>
-<v t="leo.20151113113657.1"><vh>@edit 2015cp_hw_w4.md</vh></v>
 <v t="leo.20151113113700.1"><vh>@edit 2015cp_hw_w5.md</vh></v>
 <v t="leo.20151113113701.1"><vh>@edit 2015cp_hw_w6.md</vh></v>
 <v t="leo.20151113113658.1"><vh>@edit 2015cp_hw_w7.md</vh></v>
-<v t="leo.20151113113651.1"><vh>@edit 2015cp_hw_w8.md</vh></v>
 </v>
 </v>
 </v>
 <v t="amd.20150919120205.1" a="E"><vh>以下為 reveal 投影片</vh>
-<v t="amd.20150915211341.1"><vh>@clean w1.html</vh>
-<v t="amd.20150917085040.1"><vh>檔案說明</vh></v>
-<v t="amd.20150915211351.1" a="E"><vh>html 標註</vh>
-<v t="amd.20150915211351.4" a="E"><vh>body 標註</vh>
-<v t="amd.20150915211351.5" a="E"><vh>div class="reveal"</vh>
-<v t="amd.20150915211351.6" a="E"><vh>div class="slides"</vh>
-<v t="amd.20150915211351.7"><vh>有關我的作業</vh></v>
-<v t="amd.20150915211351.9"><vh>作業任務一</vh></v>
-<v t="amd.20150915211351.12"><vh>第3張投影片</vh></v>
-</v>
-</v>
-<v t="amd.20150915211351.15"><vh>script</vh></v>
-</v>
-</v>
-</v>
-<v t="leo.20151113113807.1"><vh>@clean w2.html</vh>
+<v t="leo.20151113113807.1"><vh>@clean w1.html</vh>
 <v t="leo.20151113113807.2"><vh>檔案說明</vh></v>
 <v t="leo.20151113113807.3" a="E"><vh>html 標註</vh>
 <v t="leo.20151113113807.4" a="E"><vh>body 標註</vh>
@@ -64,6 +47,23 @@
 </v>
 </v>
 <v t="leo.20151113113807.10"><vh>script</vh></v>
+</v>
+</v>
+</v>
+<v t="amd.20150915211341.1"><vh>@clean w2.html</vh>
+<v t="amd.20150917085040.1"><vh>檔案說明</vh></v>
+<v t="amd.20150915211351.1" a="E"><vh>html 標註</vh>
+<v t="amd.20150915211351.4" a="E"><vh>body 標註</vh>
+<v t="amd.20150915211351.5" a="E"><vh>div class="reveal"</vh>
+<v t="amd.20150915211351.6" a="E"><vh>div class="slides"</vh>
+<v t="amd.20150915211351.7"><vh>建立/刪除倉儲</vh></v>
+<v t="amd.20150915211351.9"><vh>建立倉儲</vh></v>
+<v t="lys86212.20151116233508.1"><vh>刪除倉儲</vh></v>
+<v t="amd.20150915211351.12"><vh>心得</vh></v>
+<v t="lys86212.20151116234835.1"><vh>自評</vh></v>
+</v>
+</v>
+<v t="amd.20150915211351.15"><vh>script</vh></v>
 </v>
 </v>
 </v>
@@ -79,21 +79,6 @@
 </v>
 </v>
 <v t="leo.20151113113808.10"><vh>script</vh></v>
-</v>
-</v>
-</v>
-<v t="leo.20151113113809.1"><vh>@clean w4.html</vh>
-<v t="leo.20151113113809.2"><vh>檔案說明</vh></v>
-<v t="leo.20151113113809.3" a="E"><vh>html 標註</vh>
-<v t="leo.20151113113809.4" a="E"><vh>body 標註</vh>
-<v t="leo.20151113113809.5" a="E"><vh>div class="reveal"</vh>
-<v t="leo.20151113113809.6" a="E"><vh>div class="slides"</vh>
-<v t="leo.20151113113809.7"><vh>有關我的作業</vh></v>
-<v t="leo.20151113113809.8"><vh>作業任務一</vh></v>
-<v t="leo.20151113113809.9"><vh>第3張投影片</vh></v>
-</v>
-</v>
-<v t="leo.20151113113809.10"><vh>script</vh></v>
 </v>
 </v>
 </v>
@@ -139,21 +124,6 @@
 </v>
 </v>
 <v t="leo.20151113113818.10"><vh>script</vh></v>
-</v>
-</v>
-</v>
-<v t="leo.20151113113811.1"><vh>@clean w8.html</vh>
-<v t="leo.20151113113811.2"><vh>檔案說明</vh></v>
-<v t="leo.20151113113811.3" a="E"><vh>html 標註</vh>
-<v t="leo.20151113113811.4" a="E"><vh>body 標註</vh>
-<v t="leo.20151113113811.5" a="E"><vh>div class="reveal"</vh>
-<v t="leo.20151113113811.6" a="E"><vh>div class="slides"</vh>
-<v t="leo.20151113113811.7"><vh>有關我的作業</vh></v>
-<v t="leo.20151113113811.8"><vh>作業任務一</vh></v>
-<v t="leo.20151113113811.9"><vh>第3張投影片</vh></v>
-</v>
-</v>
-<v t="leo.20151113113811.10"><vh>script</vh></v>
 </v>
 </v>
 </v>
@@ -273,9 +243,10 @@ vertical: body pane on the botton</t>
 @others
 </t>
 <t tx="amd.20150915211351.12">&lt;section&gt;
-    &lt;h1&gt;第3張投影片&lt;/h1&gt;
-    &lt;p&gt;成績自評分數的量化依據?&lt;/p&gt;
-    &lt;p&gt;可以連結到內部投影片&lt;a href="#/hw-task-one"&gt;作業任務一&lt;/a&gt;
+    &lt;h1&gt;心得&lt;/h1&gt;
+    &lt;p&gt;上課時老師講的東西依然都是之前沒接觸過的，&lt;/p&gt;
+    &lt;p&gt;所以還是聽不懂，不過有比前一堂了解多一點了&lt;/p&gt;
+    &lt;p&gt;但是建立與刪除倉儲是目前唯一能理解的...&lt;/p&gt;
 &lt;/section&gt;
 				
 </t>
@@ -306,15 +277,20 @@ vertical: body pane on the botton</t>
 &lt;!-- 每一個 section 都代表一張投影片,  --&gt;
 &lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
 &lt;section&gt;
-    &lt;h1&gt;有關我的作業&lt;/h1&gt;
-    &lt;p&gt;學號姓名與日期&lt;/p&gt;		
+    &lt;h1&gt;建立/刪除倉儲&lt;/h1&gt;
+    &lt;p&gt;40423103 劉怡萱&lt;/p&gt;		
 &lt;/section&gt;
 	
 </t>
 <t tx="amd.20150915211351.9">&lt;section id="hw-task-one"&gt;
-    &lt;h1&gt;作業任務一&lt;/h1&gt;
-    &lt;p&gt;有關作業任務一的說明&lt;/p&gt;
-    &lt;p&gt;請參考 &lt;a href="http://www.google.com"&gt;Google&lt;/a&gt;
+    &lt;h1&gt;建立倉儲&lt;/h1&gt;
+    &lt;p&gt;1.點選右上角的"+"&lt;/p&gt;
+    &lt;p&gt;2.點選"NEW REPOSITORY"&lt;/p&gt;
+    &lt;p&gt;3.輸入欲建立之倉儲名稱&lt;/p&gt;
+    &lt;p&gt;4.勾選"INITIALIZE THIS REPOSITORY WITH A READ ME"&lt;/p&gt;
+    &lt;p&gt;5.點選 "CREATE REPOSITORY"&lt;/p&gt;
+    &lt;p&gt;請參考 &lt;a href="https://vimeo.com/144982387"&gt;建立倉儲&lt;/a&gt;
+    &lt;p&gt;或至下方影片觀賞&lt;/p&gt;
 &lt;/section&gt;
 				
 </t>
@@ -510,150 +486,6 @@ g.es("admin pelican 執行完畢")</t>
 				
 </t>
 <t tx="leo.20151113113808.9">&lt;section&gt;
-    &lt;h1&gt;第3張投影片&lt;/h1&gt;
-    &lt;p&gt;成績自評分數的量化依據?&lt;/p&gt;
-    &lt;p&gt;可以連結到內部投影片&lt;a href="#/hw-task-one"&gt;作業任務一&lt;/a&gt;
-&lt;/section&gt;
-				
-</t>
-<t tx="leo.20151113113809.1">@language xml
-@tabwidth -4
-@others
-
-</t>
-<t tx="leo.20151113113809.10">&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
-&lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
-&lt;script&gt;
-    // 啟動 Reveal.
-    Reveal.initialize({
-    });
-&lt;/script&gt;
-	
-</t>
-<t tx="leo.20151113113809.2">&lt;!--
-這個檔案展示了 reveal.js 投影片資料的基本架構
-其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
-而各投影片則以 &lt;section&gt;&lt;/section&gt; 標示
-且支援平行與垂直的投影片配置方法
---&gt;
-</t>
-<t tx="leo.20151113113809.3">&lt;!doctype html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-&lt;meta charset="utf-8"&gt;
-&lt;title&gt;最簡單的 reveal 超文件&lt;/title&gt;
-&lt;link rel="stylesheet" href="css/reveal.min.css"&gt;
-	&lt;link rel="stylesheet" href="css/theme/default.css" id="theme"&gt;	
-	&lt;!--增加對於 IE 早期版本的支援 --&gt;
-	&lt;!--[if lt IE 9]&gt;
-	&lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
-	&lt;![endif]--&gt;
-&lt;/head&gt;
-@others
-</t>
-<t tx="leo.20151113113809.4">&lt;body&gt;
-@others
-&lt;/body&gt;
-</t>
-<t tx="leo.20151113113809.5">&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
-&lt;div class="reveal"&gt;
-@others
-&lt;/div&gt;
-</t>
-<t tx="leo.20151113113809.6">&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
-&lt;div class="slides"&gt;
-@others
-&lt;/div&gt;
-</t>
-<t tx="leo.20151113113809.7">&lt;!-- 以下為投影片 --&gt;
-&lt;!-- 每一個 section 都代表一張投影片,  --&gt;
-&lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
-&lt;section&gt;
-    &lt;h1&gt;有關我的作業&lt;/h1&gt;
-    &lt;p&gt;學號姓名與日期&lt;/p&gt;		
-&lt;/section&gt;
-	
-</t>
-<t tx="leo.20151113113809.8">&lt;section id="hw-task-one"&gt;
-    &lt;h1&gt;作業任務一&lt;/h1&gt;
-    &lt;p&gt;有關作業任務一的說明&lt;/p&gt;
-    &lt;p&gt;請參考 &lt;a href="http://www.google.com"&gt;Google&lt;/a&gt;
-&lt;/section&gt;
-				
-</t>
-<t tx="leo.20151113113809.9">&lt;section&gt;
-    &lt;h1&gt;第3張投影片&lt;/h1&gt;
-    &lt;p&gt;成績自評分數的量化依據?&lt;/p&gt;
-    &lt;p&gt;可以連結到內部投影片&lt;a href="#/hw-task-one"&gt;作業任務一&lt;/a&gt;
-&lt;/section&gt;
-				
-</t>
-<t tx="leo.20151113113811.1">@language xml
-@tabwidth -4
-@others
-
-</t>
-<t tx="leo.20151113113811.10">&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
-&lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
-&lt;script&gt;
-    // 啟動 Reveal.
-    Reveal.initialize({
-    });
-&lt;/script&gt;
-	
-</t>
-<t tx="leo.20151113113811.2">&lt;!--
-這個檔案展示了 reveal.js 投影片資料的基本架構
-其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
-而各投影片則以 &lt;section&gt;&lt;/section&gt; 標示
-且支援平行與垂直的投影片配置方法
---&gt;
-</t>
-<t tx="leo.20151113113811.3">&lt;!doctype html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-&lt;meta charset="utf-8"&gt;
-&lt;title&gt;最簡單的 reveal 超文件&lt;/title&gt;
-&lt;link rel="stylesheet" href="css/reveal.min.css"&gt;
-	&lt;link rel="stylesheet" href="css/theme/default.css" id="theme"&gt;	
-	&lt;!--增加對於 IE 早期版本的支援 --&gt;
-	&lt;!--[if lt IE 9]&gt;
-	&lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
-	&lt;![endif]--&gt;
-&lt;/head&gt;
-@others
-</t>
-<t tx="leo.20151113113811.4">&lt;body&gt;
-@others
-&lt;/body&gt;
-</t>
-<t tx="leo.20151113113811.5">&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
-&lt;div class="reveal"&gt;
-@others
-&lt;/div&gt;
-</t>
-<t tx="leo.20151113113811.6">&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
-&lt;div class="slides"&gt;
-@others
-&lt;/div&gt;
-</t>
-<t tx="leo.20151113113811.7">&lt;!-- 以下為投影片 --&gt;
-&lt;!-- 每一個 section 都代表一張投影片,  --&gt;
-&lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
-&lt;section&gt;
-    &lt;h1&gt;有關我的作業&lt;/h1&gt;
-    &lt;p&gt;學號姓名與日期&lt;/p&gt;		
-&lt;/section&gt;
-	
-</t>
-<t tx="leo.20151113113811.8">&lt;section id="hw-task-one"&gt;
-    &lt;h1&gt;作業任務一&lt;/h1&gt;
-    &lt;p&gt;有關作業任務一的說明&lt;/p&gt;
-    &lt;p&gt;請參考 &lt;a href="http://www.google.com"&gt;Google&lt;/a&gt;
-&lt;/section&gt;
-				
-</t>
-<t tx="leo.20151113113811.9">&lt;section&gt;
     &lt;h1&gt;第3張投影片&lt;/h1&gt;
     &lt;p&gt;成績自評分數的量化依據?&lt;/p&gt;
     &lt;p&gt;可以連結到內部投影片&lt;a href="#/hw-task-one"&gt;作業任務一&lt;/a&gt;
@@ -873,6 +705,26 @@ g.es("admin pelican 執行完畢")</t>
     &lt;h1&gt;第3張投影片&lt;/h1&gt;
     &lt;p&gt;成績自評分數的量化依據?&lt;/p&gt;
     &lt;p&gt;可以連結到內部投影片&lt;a href="#/hw-task-one"&gt;作業任務一&lt;/a&gt;
+&lt;/section&gt;
+				
+</t>
+<t tx="lys86212.20151116233508.1">&lt;section id="hw-task-one"&gt;
+    &lt;h1&gt;刪除倉儲&lt;/h1&gt;
+    &lt;p&gt;1.點選你要刪除的倉儲&lt;/p&gt;
+    &lt;p&gt;2.點選右邊的"SETTING"&lt;/p&gt;
+    &lt;p&gt;3.往下滑&lt;/p&gt;
+    &lt;p&gt;4.點選最後一個"DELETE THIS REPOSITORY"&lt;/p&gt;
+    &lt;p&gt;5.輸入你要刪除的倉儲名稱&lt;/p&gt;
+    &lt;p&gt;6.按下"I UNDERSTAND THE CONSEQUENCES, DELETE THIS REPOSITORY"&lt;/p&gt;
+    &lt;p&gt;請參考 &lt;a href="https://vimeo.com/144982406"&gt;刪除倉儲&lt;/a&gt;
+    &lt;p&gt;或至下方影片觀賞&lt;/p&gt;
+&lt;/section&gt;
+				
+</t>
+<t tx="lys86212.20151116234835.1">&lt;section&gt;
+    &lt;h1&gt;自評&lt;/h1&gt;
+    &lt;p&gt;自評分數：70&lt;/p&gt;
+    &lt;p&gt;雖然只是簡單的幾個步驟，但是影片製作也花了點時間呀~&lt;/p&gt;
 &lt;/section&gt;
 				
 </t>
