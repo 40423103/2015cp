@@ -35,7 +35,7 @@
 </v>
 </v>
 <v t="amd.20150919120205.1" a="E"><vh>以下為 reveal 投影片</vh>
-<v t="leo.20151113113807.1" a="E"><vh>@clean w1.html</vh>
+<v t="leo.20151113113807.1"><vh>@clean w1.html</vh>
 <v t="leo.20151113113807.2"><vh>檔案說明</vh></v>
 <v t="leo.20151113113807.3" a="E"><vh>html 標註</vh>
 <v t="leo.20151113113807.4" a="E"><vh>body 標註</vh>
