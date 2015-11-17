@@ -51,7 +51,7 @@
 </v>
 </v>
 </v>
-<v t="amd.20150915211341.1" a="E"><vh>@clean w2.html</vh>
+<v t="amd.20150915211341.1"><vh>@clean w2.html</vh>
 <v t="amd.20150917085040.1"><vh>檔案說明</vh></v>
 <v t="amd.20150915211351.1" a="E"><vh>html 標註</vh>
 <v t="amd.20150915211351.4" a="E"><vh>body 標註</vh>
@@ -68,15 +68,17 @@
 </v>
 </v>
 </v>
-<v t="leo.20151113113808.1"><vh>@clean w3.html</vh>
+<v t="leo.20151113113808.1" a="E"><vh>@clean w3.html</vh>
 <v t="leo.20151113113808.2"><vh>檔案說明</vh></v>
 <v t="leo.20151113113808.3" a="E"><vh>html 標註</vh>
 <v t="leo.20151113113808.4" a="E"><vh>body 標註</vh>
 <v t="leo.20151113113808.5" a="E"><vh>div class="reveal"</vh>
 <v t="leo.20151113113808.6" a="E"><vh>div class="slides"</vh>
-<v t="leo.20151113113808.7"><vh>有關我的作業</vh></v>
+<v t="leo.20151113113808.7"><vh>建立分支與推送資料</vh></v>
 <v t="leo.20151113113808.8"><vh>作業任務一</vh></v>
-<v t="leo.20151113113808.9"><vh>第3張投影片</vh></v>
+<v t="leo.20151113113808.9"><vh>指令介紹</vh></v>
+<v t="leo.20151118015700.1"><vh>指令介紹</vh></v>
+<v t="leo.20151118015702.1"><vh>指令介紹</vh></v>
 </v>
 </v>
 <v t="leo.20151113113808.10"><vh>script</vh></v>
@@ -482,20 +484,45 @@ g.es("admin pelican 執行完畢")</t>
 &lt;!-- 每一個 section 都代表一張投影片,  --&gt;
 &lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
 &lt;section&gt;
-    &lt;h1&gt;有關我的作業&lt;/h1&gt;
-    &lt;p&gt;學號姓名與日期&lt;/p&gt;		
+    &lt;h1&gt;建立分支/推送資料&lt;/h1&gt;
+    &lt;p&gt;40423103 劉怡萱&lt;/p&gt;		
 &lt;/section&gt;
 	
 </t>
 <t tx="leo.20151113113808.8">&lt;section id="hw-task-one"&gt;
-    &lt;h1&gt;作業任務一&lt;/h1&gt;
-    &lt;p&gt;有關作業任務一的說明&lt;/p&gt;
-    &lt;p&gt;請參考 &lt;a href="http://www.google.com"&gt;Google&lt;/a&gt;
+    &lt;h1&gt;建立分支與推送資料&lt;/h1&gt;
+    &lt;p&gt;1. 打開小黑窗&lt;/p&gt;
+    &lt;p&gt;2. 輸入cd tmp&lt;/p&gt;
+    &lt;p&gt;3. 倉儲網頁右下角複製倉儲網址&lt;/p&gt;
+    &lt;p&gt;4. 輸入git clone 貼上網址&lt;/p&gt;
+    &lt;p&gt;5. 輸入cd cpahww2&lt;/p&gt;
+    &lt;p&gt;6. 輸入git branch gh-pages&lt;/p&gt;
+    &lt;p&gt;7. 輸入git checkout gh-pages&lt;/p&gt;
+    &lt;p&gt;8. 到老師提供的倉儲&lt;/p&gt;
+    &lt;p&gt;9. 切換至gh-pages分支&lt;/p&gt;
+    &lt;p&gt;10. 右下角下載壓縮檔&lt;/p&gt;
+    &lt;p&gt;11. 解壓縮&lt;/p&gt;
+    &lt;p&gt;12. control+A檔案全選，不要選取 READ ME檔&lt;/p&gt;
+    &lt;p&gt;13. 複製檔案&lt;/p&gt;
+    &lt;p&gt;14. 到Y:/tmp/cpahww2貼上&lt;/p&gt;
+    &lt;p&gt;15. 打開小黑窗&lt;/p&gt;
+    &lt;p&gt;16. 輸入git add -A&lt;/p&gt;
+    &lt;p&gt;17. 輸入git commit -m "initail add"&lt;/p&gt;
+    &lt;p&gt;18.輸入github使用者信箱及使用者名稱&lt;/p&gt;
+    &lt;p&gt;     指令為git global --user.email "..@.."
+                            git global --user.name ".."&lt;/p&gt;
+    &lt;p&gt;19. 再次輸入git commit -m "initail add"&lt;/p&gt;
+    &lt;p&gt;20. 輸入git push origin gh-pages&lt;/p&gt;
+    &lt;p&gt;21. 輸入github使用者名稱及密碼&lt;/p&gt;
+    &lt;p&gt;22. 至倉儲網頁重新整理&lt;/p&gt;
+    &lt;p&gt;23. 成功推送~~&lt;/p&gt;
+    &lt;p&gt;請參考 &lt;a href="https://vimeo.com/145229545"&gt;建立分支與推送資料&lt;/a&gt;
+    &lt;p&gt;或至下方觀賞影片&lt;/p&gt;
 &lt;/section&gt;
 				
 </t>
 <t tx="leo.20151113113808.9">&lt;section&gt;
-    &lt;h1&gt;第3張投影片&lt;/h1&gt;
+    &lt;h1&gt;指令介紹&lt;/h1&gt;
     &lt;p&gt;成績自評分數的量化依據?&lt;/p&gt;
     &lt;p&gt;可以連結到內部投影片&lt;a href="#/hw-task-one"&gt;作業任務一&lt;/a&gt;
 &lt;/section&gt;
@@ -711,6 +738,20 @@ g.es("admin pelican 執行完畢")</t>
 				
 </t>
 <t tx="leo.20151113113818.9">&lt;section&gt;
+    &lt;h1&gt;第3張投影片&lt;/h1&gt;
+    &lt;p&gt;成績自評分數的量化依據?&lt;/p&gt;
+    &lt;p&gt;可以連結到內部投影片&lt;a href="#/hw-task-one"&gt;作業任務一&lt;/a&gt;
+&lt;/section&gt;
+				
+</t>
+<t tx="leo.20151118015700.1">&lt;section&gt;
+    &lt;h1&gt;第3張投影片&lt;/h1&gt;
+    &lt;p&gt;成績自評分數的量化依據?&lt;/p&gt;
+    &lt;p&gt;可以連結到內部投影片&lt;a href="#/hw-task-one"&gt;作業任務一&lt;/a&gt;
+&lt;/section&gt;
+				
+</t>
+<t tx="leo.20151118015702.1">&lt;section&gt;
     &lt;h1&gt;第3張投影片&lt;/h1&gt;
     &lt;p&gt;成績自評分數的量化依據?&lt;/p&gt;
     &lt;p&gt;可以連結到內部投影片&lt;a href="#/hw-task-one"&gt;作業任務一&lt;/a&gt;
