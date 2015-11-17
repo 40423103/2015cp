@@ -35,22 +35,23 @@
 </v>
 </v>
 <v t="amd.20150919120205.1" a="E"><vh>以下為 reveal 投影片</vh>
-<v t="leo.20151113113807.1"><vh>@clean w1.html</vh>
+<v t="leo.20151113113807.1" a="E"><vh>@clean w1.html</vh>
 <v t="leo.20151113113807.2"><vh>檔案說明</vh></v>
 <v t="leo.20151113113807.3" a="E"><vh>html 標註</vh>
 <v t="leo.20151113113807.4" a="E"><vh>body 標註</vh>
 <v t="leo.20151113113807.5" a="E"><vh>div class="reveal"</vh>
 <v t="leo.20151113113807.6" a="E"><vh>div class="slides"</vh>
-<v t="leo.20151113113807.7"><vh>有關我的作業</vh></v>
-<v t="leo.20151113113807.8"><vh>作業任務一</vh></v>
-<v t="leo.20151113113807.9"><vh>第3張投影片</vh></v>
+<v t="leo.20151113113807.7"><vh>安裝及啟動Anaconda</vh></v>
+<v t="leo.20151113113807.8"><vh>安裝及啟動Anaconda教學</vh></v>
+<v t="leo.20151113113807.9"><vh>心得</vh></v>
+<v t="lys86212.20151117113513.1"><vh>自評</vh></v>
 </v>
 </v>
 <v t="leo.20151113113807.10"><vh>script</vh></v>
 </v>
 </v>
 </v>
-<v t="amd.20150915211341.1"><vh>@clean w2.html</vh>
+<v t="amd.20150915211341.1" a="E"><vh>@clean w2.html</vh>
 <v t="amd.20150917085040.1"><vh>檔案說明</vh></v>
 <v t="amd.20150915211351.1" a="E"><vh>html 標註</vh>
 <v t="amd.20150915211351.4" a="E"><vh>body 標註</vh>
@@ -401,22 +402,30 @@ g.es("admin pelican 執行完畢")</t>
 &lt;!-- 每一個 section 都代表一張投影片,  --&gt;
 &lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
 &lt;section&gt;
-    &lt;h1&gt;有關我的作業&lt;/h1&gt;
-    &lt;p&gt;學號姓名與日期&lt;/p&gt;		
+    &lt;h1&gt;安裝及啟動Anaconda&lt;/h1&gt;
+    &lt;p&gt;40423103 劉怡萱&lt;/p&gt;		
 &lt;/section&gt;
 	
 </t>
 <t tx="leo.20151113113807.8">&lt;section id="hw-task-one"&gt;
-    &lt;h1&gt;作業任務一&lt;/h1&gt;
-    &lt;p&gt;有關作業任務一的說明&lt;/p&gt;
-    &lt;p&gt;請參考 &lt;a href="http://www.google.com"&gt;Google&lt;/a&gt;
+    &lt;h1&gt;安裝及啟動&lt;/h1&gt;
+    &lt;p&gt;1.從教學網站下載"Ana3_lite2.7"及"fix"&lt;/p&gt;
+    &lt;p&gt;2.將兩個檔案進行解壓縮&lt;/p&gt;
+    &lt;p&gt;3.先開啟"fix"料夾&lt;/p&gt;
+    &lt;p&gt;4.點選啟動"fix.bat"，畫面只會閃一下&lt;/p&gt;
+    &lt;p&gt;5.再開啟"Anaconday"資料夾&lt;/p&gt;
+    &lt;p&gt;6.點選"start.bat"&lt;/p&gt;
+    &lt;p&gt;7.成功開啟&lt;/p&gt;
+    &lt;p&gt;請參考 &lt;a href="https://vimeo.com/145948723"&gt;安裝及啟動&lt;/a&gt;
+    &lt;p&gt;或至下方觀賞影片&lt;/p&gt;
 &lt;/section&gt;
 				
 </t>
 <t tx="leo.20151113113807.9">&lt;section&gt;
-    &lt;h1&gt;第3張投影片&lt;/h1&gt;
-    &lt;p&gt;成績自評分數的量化依據?&lt;/p&gt;
-    &lt;p&gt;可以連結到內部投影片&lt;a href="#/hw-task-one"&gt;作業任務一&lt;/a&gt;
+    &lt;h1&gt;心得&lt;/h1&gt;
+    &lt;p&gt;老師在課堂上講的內容都是之前沒有接觸過的東西，&lt;/p&gt;
+    &lt;p&gt;老師給的一些觀念也都聽不懂，&lt;/p&gt;
+    &lt;p&gt;只能一步一步照著老師上課的內容慢慢學習。&lt;/p&gt;
 &lt;/section&gt;
 				
 </t>
@@ -725,6 +734,14 @@ g.es("admin pelican 執行完畢")</t>
     &lt;h1&gt;自評&lt;/h1&gt;
     &lt;p&gt;自評分數：70&lt;/p&gt;
     &lt;p&gt;雖然只是簡單的幾個步驟，但是影片製作也花了點時間呀~&lt;/p&gt;
+&lt;/section&gt;
+				
+</t>
+<t tx="lys86212.20151117113513.1">&lt;section&gt;
+    &lt;h1&gt;自評&lt;/h1&gt;
+    &lt;p&gt;自評分數：65&lt;/p&gt;
+    &lt;p&gt;這週的內容比較難抓重點，只能把基本的安裝記起來，&lt;/p&gt;
+    &lt;p&gt;給自己一點基本分增加信心~~&lt;/p&gt;
 &lt;/section&gt;
 				
 </t>
