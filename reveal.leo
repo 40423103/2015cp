@@ -28,9 +28,6 @@
 <v t="lys86212.20151117012523.1"><vh>@edit 2015cp_hw_w1.md</vh></v>
 <v t="lys86212.20151117012303.1"><vh>@edit 2015cp_hw_w2.md</vh></v>
 <v t="leo.20151113113655.1"><vh>@edit 2015cp_hw_w3.md</vh></v>
-<v t="leo.20151113113700.1"><vh>@edit 2015cp_hw_w5.md</vh></v>
-<v t="leo.20151113113701.1"><vh>@edit 2015cp_hw_w6.md</vh></v>
-<v t="leo.20151113113658.1"><vh>@edit 2015cp_hw_w7.md</vh></v>
 </v>
 </v>
 </v>
@@ -76,9 +73,8 @@
 <v t="leo.20151113113808.6" a="E"><vh>div class="slides"</vh>
 <v t="leo.20151113113808.7"><vh>建立分支與推送資料</vh></v>
 <v t="leo.20151113113808.8"><vh>作業任務一</vh></v>
-<v t="leo.20151113113808.9"><vh>指令介紹</vh></v>
-<v t="leo.20151118015700.1"><vh>指令介紹</vh></v>
-<v t="leo.20151118015702.1"><vh>指令介紹</vh></v>
+<v t="leo.20151118015702.1"><vh>心得</vh></v>
+<v t="leo.20151118234820.1"><vh>自評</vh></v>
 </v>
 </v>
 <v t="leo.20151113113808.10"><vh>script</vh></v>
@@ -521,13 +517,6 @@ g.es("admin pelican 執行完畢")</t>
 &lt;/section&gt;
 				
 </t>
-<t tx="leo.20151113113808.9">&lt;section&gt;
-    &lt;h1&gt;指令介紹&lt;/h1&gt;
-    &lt;p&gt;成績自評分數的量化依據?&lt;/p&gt;
-    &lt;p&gt;可以連結到內部投影片&lt;a href="#/hw-task-one"&gt;作業任務一&lt;/a&gt;
-&lt;/section&gt;
-				
-</t>
 <t tx="leo.20151113113814.1">@language xml
 @tabwidth -4
 @others
@@ -744,17 +733,17 @@ g.es("admin pelican 執行完畢")</t>
 &lt;/section&gt;
 				
 </t>
-<t tx="leo.20151118015700.1">&lt;section&gt;
-    &lt;h1&gt;第3張投影片&lt;/h1&gt;
-    &lt;p&gt;成績自評分數的量化依據?&lt;/p&gt;
-    &lt;p&gt;可以連結到內部投影片&lt;a href="#/hw-task-one"&gt;作業任務一&lt;/a&gt;
+<t tx="leo.20151118015702.1">&lt;section&gt;
+    &lt;h1&gt;心得&lt;/h1&gt;
+    &lt;p&gt;重複了好多次同樣的步驟才大概了解每個指令的意義，&lt;/p&gt;
+    &lt;p&gt;也越來越跟得上老師的腳步~&lt;/p&gt;
 &lt;/section&gt;
 				
 </t>
-<t tx="leo.20151118015702.1">&lt;section&gt;
-    &lt;h1&gt;第3張投影片&lt;/h1&gt;
-    &lt;p&gt;成績自評分數的量化依據?&lt;/p&gt;
-    &lt;p&gt;可以連結到內部投影片&lt;a href="#/hw-task-one"&gt;作業任務一&lt;/a&gt;
+<t tx="leo.20151118234820.1">&lt;section&gt;
+    &lt;h1&gt;自評&lt;/h1&gt;
+    &lt;p&gt;自評分數：70&lt;/p&gt;
+    &lt;p&gt;這個影片拍超多次的~剪輯也花了很多時間&lt;/p&gt;
 &lt;/section&gt;
 				
 </t>
