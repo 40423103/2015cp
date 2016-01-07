@@ -67,7 +67,7 @@
 </v>
 </v>
 </v>
-<v t="leo.20151113113808.1" a="E"><vh>@clean w3.html</vh>
+<v t="leo.20151113113808.1"><vh>@clean w3.html</vh>
 <v t="leo.20151113113808.2"><vh>檔案說明</vh></v>
 <v t="leo.20151113113808.3" a="E"><vh>html 標註</vh>
 <v t="leo.20151113113808.4" a="E"><vh>body 標註</vh>
@@ -83,35 +83,20 @@
 </v>
 </v>
 </v>
-<v t="leo.20151202223753.1" a="E"><vh>@clean w11.html</vh>
+<v t="leo.20151202223753.1"><vh>@clean w11.html</vh>
 <v t="leo.20151202223753.2"><vh>檔案說明</vh></v>
 <v t="leo.20151202223753.3" a="E"><vh>html 標註</vh>
 <v t="leo.20151202223753.4" a="E"><vh>body 標註</vh>
 <v t="leo.20151202223753.5" a="E"><vh>div class="reveal"</vh>
 <v t="leo.20151202223753.6" a="E"><vh>div class="slides"</vh>
 <v t="leo.20151202223753.7"><vh>標題</vh></v>
-<v t="leo.20151202223753.8"><vh>修正fix_leo-editor安裝</vh></v>
+<v t="leo.20151202223753.8"><vh>修正fix_leo-editor安裝1</vh></v>
+<v t="leo.20160108030055.1"><vh>修正fix_leo-editor安裝2</vh></v>
 <v t="leo.20151202223753.9"><vh>心得</vh></v>
 <v t="leo.20151202223753.10"><vh>自評</vh></v>
 </v>
 </v>
 <v t="leo.20151202223753.11"><vh>script</vh></v>
-</v>
-</v>
-</v>
-<v t="leo.20151205004105.1"><vh>@clean w12.html</vh>
-<v t="leo.20151205004105.2"><vh>檔案說明</vh></v>
-<v t="leo.20151205004105.3" a="E"><vh>html 標註</vh>
-<v t="leo.20151205004105.4" a="E"><vh>body 標註</vh>
-<v t="leo.20151205004105.5" a="E"><vh>div class="reveal"</vh>
-<v t="leo.20151205004105.6" a="E"><vh>div class="slides"</vh>
-<v t="leo.20151205004105.7"><vh>標題</vh></v>
-<v t="leo.20151205004105.8"><vh>修正fix_leo-editor安裝</vh></v>
-<v t="leo.20151205004105.9"><vh>心得</vh></v>
-<v t="leo.20151205004105.10"><vh>自評</vh></v>
-</v>
-</v>
-<v t="leo.20151205004105.11"><vh>script</vh></v>
 </v>
 </v>
 </v>
@@ -488,7 +473,6 @@ g.es("admin pelican 執行完畢")</t>
     &lt;p&gt;10. 右下角下載壓縮檔&lt;/p&gt;
     &lt;p&gt;11. 解壓縮&lt;/p&gt;
     &lt;p&gt;12. control+A檔案全選，不要選取 READ ME檔&lt;/p&gt;
-&lt;section&gt;
     &lt;p&gt;13. 複製檔案&lt;/p&gt;
     &lt;p&gt;14. 到Y:/tmp/cpahww2貼上&lt;/p&gt;
     &lt;p&gt;15. 打開小黑窗&lt;/p&gt;
@@ -503,8 +487,7 @@ g.es("admin pelican 執行完畢")</t>
     &lt;p&gt;22. 至倉儲網頁重新整理&lt;/p&gt;
     &lt;p&gt;23. 成功推送~~&lt;/p&gt;
     &lt;p&gt;請參考 &lt;a href="https://vimeo.com/145229545"&gt;建立分支與推送資料&lt;/a&gt;
-    &lt;p&gt;或至下方觀賞影片&lt;/p&gt;
-&lt;/section&gt;
+    &lt;p&gt;或至下方觀賞影片&lt;/p&gt;   
 &lt;/section&gt;				
 </t>
 <t tx="leo.20151118015702.1">&lt;section&gt;
@@ -528,7 +511,9 @@ g.es("admin pelican 執行完畢")</t>
 </t>
 <t tx="leo.20151202223753.10">&lt;section&gt;
     &lt;h1&gt;自評&lt;/h1&gt;
-    &lt;p&gt;自評分數：&lt;/p&gt;
+    &lt;p&gt;自評分數：75&lt;/p&gt;
+    &lt;p&gt;我覺得每次的自評都只有影片好難拍好難拍好難拍而已XD&lt;/p&gt;
+    &lt;p&gt;不過後製的速度有比較快了啦~ &lt;/p&gt;
 &lt;/section&gt;
 				
 </t>
@@ -587,90 +572,44 @@ g.es("admin pelican 執行完畢")</t>
 	
 </t>
 <t tx="leo.20151202223753.8">&lt;section&gt;
-    &lt;h1&gt;修正fix_leo-editor安裝&lt;/h1&gt;
+    &lt;h2&gt;修正fix_leo-editor安裝&lt;/h2&gt;
+    &lt;p&gt;1. 開啟教學網頁&lt;/p&gt;
+    &lt;p&gt;2. 點選2015fall課程&lt;/p&gt;
+    &lt;p&gt;3. 點選遠端(copy)下載fix&lt;/p&gt;
+    &lt;p&gt;4. 將檔案解壓縮&lt;/p&gt;
+    &lt;p&gt;5. 使用瀏覽器搜尋 leo editor github&lt;/p&gt;
+    &lt;p&gt;6. 點選進入網頁&lt;/p&gt;
+    &lt;p&gt;7. 點選leo-editor&lt;/p&gt;
+    &lt;p&gt;8. 點選release&lt;/p&gt;
+    &lt;p&gt;9. 點選broke-abbrev&lt;/p&gt;
+    &lt;p&gt;10. 點選Source code(zip)&lt;/p&gt;
+    &lt;p&gt;11. 將檔案移至fix資料夾&lt;/p&gt;
+    &lt;p&gt;12. 到Ana3_lite2\data\SciTE&lt;/p&gt;
 &lt;/section&gt;
     </t>
 <t tx="leo.20151202223753.9">&lt;section&gt;
     &lt;h1&gt;心得&lt;/h1&gt;
-
-&lt;/section&gt;
-				
-</t>
-<t tx="leo.20151205004105.1">@language xml
-@tabwidth -4
-@others
-
-</t>
-<t tx="leo.20151205004105.10">&lt;section&gt;
-    &lt;h1&gt;自評&lt;/h1&gt;
-    &lt;p&gt;自評分數：&lt;/p&gt;
-&lt;/section&gt;
-				
-</t>
-<t tx="leo.20151205004105.11">&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
-&lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
-&lt;script&gt;
-    // 啟動 Reveal.
-    Reveal.initialize({
-    });
-&lt;/script&gt;
-	
-</t>
-<t tx="leo.20151205004105.2">&lt;!--
-這個檔案展示了 reveal.js 投影片資料的基本架構
-其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
-而各投影片則以 &lt;section&gt;&lt;/section&gt; 標示
-且支援平行與垂直的投影片配置方法
---&gt;
-</t>
-<t tx="leo.20151205004105.3">&lt;!doctype html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-&lt;meta charset="utf-8"&gt;
-&lt;title&gt;最簡單的 reveal 超文件&lt;/title&gt;
-&lt;link rel="stylesheet" href="css/reveal.min.css"&gt;
-	&lt;link rel="stylesheet" href="css/theme/default.css" id="theme"&gt;	
-	&lt;!--增加對於 IE 早期版本的支援 --&gt;
-	&lt;!--[if lt IE 9]&gt;
-	&lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
-	&lt;![endif]--&gt;
-&lt;/head&gt;
-@others
-</t>
-<t tx="leo.20151205004105.4">&lt;body&gt;
-@others
-&lt;/body&gt;
-</t>
-<t tx="leo.20151205004105.5">&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
-&lt;div class="reveal"&gt;
-@others
-&lt;/div&gt;
-</t>
-<t tx="leo.20151205004105.6">&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
-&lt;div class="slides"&gt;
-@others
-&lt;/div&gt;
-</t>
-<t tx="leo.20151205004105.7">&lt;!-- 以下為投影片 --&gt;
-&lt;!-- 每一個 section 都代表一張投影片,  --&gt;
-&lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
-&lt;section&gt;
-    &lt;h2&gt;修正fix_leo-editor安裝&lt;/h2&gt;
-    &lt;h2&gt;猜數字遊戲&lt;/h2&gt;
-    &lt;p&gt;40423103 劉怡萱&lt;/p&gt;		
-&lt;/section&gt;
-	
-</t>
-<t tx="leo.20151205004105.8">&lt;section&gt;
-    &lt;h1&gt;修正fix_leo-editor安裝&lt;/h1&gt;
+&lt;p&gt;其實在拍影片的時候都會出現一些問題&lt;/p&gt;
+&lt;p&gt;雖然影片都是很順暢地走完整個流程&lt;/p&gt;
+&lt;p&gt;但是其實中間暫停、重拍過很多次&lt;/p&gt;
+&lt;p&gt;在解決這些問題的同時也了解更多相關的東西&lt;/p&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20160108030055.1">&lt;section&gt;
+    &lt;p&gt;13. 開啟SciTe.exe&lt;/p&gt;
+    &lt;p&gt;14. 使用此編輯器開啟fix.bat&lt;/p&gt;
+    &lt;p&gt;15. 在最後增加一行指令&lt;/p&gt;
+      指令為  copy leo-editor-broke-abbrev.zip C:\Ana3_2015\data\&lt;/p&gt;                        
+    &lt;p&gt;16. 儲存檔案&lt;/p&gt;
+    &lt;p&gt;17. 使用此編輯器開啟start.bat&lt;/p&gt;
+    &lt;p&gt;18. 將原指令 (第35行) &lt;/p&gt;
+    &lt;p&gt;      pip install http://140.130.17.17/public/leo-editor-master.zip&lt;/p&gt;     
+    &lt;p&gt;     更改為 pip install leo-editor-broke-abbrev.zip&lt;/p&gt;
+    &lt;p&gt;19. 儲存檔案&lt;/p&gt;
+    &lt;p&gt;20. 點選開啟fix.bat&lt;/p&gt;
+    &lt;p&gt;21. 點選開啟start.bat&lt;/p&gt;
+    &lt;p&gt;22. 成功開啟~~&lt;/p&gt;
 &lt;/section&gt;
     </t>
-<t tx="leo.20151205004105.9">&lt;section&gt;
-    &lt;h1&gt;心得&lt;/h1&gt;
-
-&lt;/section&gt;
-				
-</t>
 <t tx="lys86212.20151116233508.1">&lt;section id="hw-task-one"&gt;
     &lt;h1&gt;刪除倉儲&lt;/h1&gt;
     &lt;p&gt;1.點選你要刪除的倉儲&lt;/p&gt;
