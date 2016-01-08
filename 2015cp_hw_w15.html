@@ -55,7 +55,7 @@
   <div class="entry-content"><h3>Merry Christmas  &amp;  Happy new year</h3>
 <!-- 導入 brython.js -->
 
-<script type="text/javascript" src="js/40423103-w15.js"></script>
+<script type="text/javascript" src="http://brython.info/src/brython_dist.js"></script>
 
 <!-- 啟動 brython() -->
 
@@ -67,7 +67,7 @@ brython(1);
 
 <!-- 以下利用 Brython 程式執行繪圖 -->
 
-<canvas id="plotarea" width="400" height="410"></canvas>
+<canvas id="plotarea2" width="400" height="410"></canvas>
 
 <script type="text/python3">
 # 導入 doc
@@ -76,230 +76,230 @@ from browser import console
 import math
 
 # 準備繪圖畫布
-canvas = doc["plotarea"]
-ctx = canvas.getContext("2d")
+canvas2 = doc["plotarea2"]
+ctx2 = canvas2.getContext("2d")
 
 
-ctx.beginPath()
-grd=ctx.createLinearGradient(0,0,0,400)
+ctx2.beginPath()
+grd=ctx2.createLinearGradient(0,0,0,400)
 grd.addColorStop(1,"#FF0000")
 grd.addColorStop(0,"#FFFF00")
-ctx.lineWidth = 20
-ctx.strokeStyle = grd
-ctx.moveTo(0,0)
-ctx.lineTo(0,400)
-ctx.stroke()
+ctx2.lineWidth = 20
+ctx2.strokeStyle = grd
+ctx2.moveTo(0,0)
+ctx2.lineTo(0,400)
+ctx2.stroke()
 
-ctx.beginPath()
-grd=ctx.createLinearGradient(400,0,0,0)
+ctx2.beginPath()
+grd=ctx2.createLinearGradient(400,0,0,0)
 grd.addColorStop(1,"#FFFF00")
 grd.addColorStop(0,"#00FF00")
-ctx.strokeStyle = grd
-ctx.moveTo(0,0)
-ctx.lineTo(400,0)
-ctx.stroke()
+ctx2.strokeStyle = grd
+ctx2.moveTo(0,0)
+ctx2.lineTo(400,0)
+ctx2.stroke()
 
-ctx.beginPath()
-grd=ctx.createLinearGradient(0,400,0,0)
+ctx2.beginPath()
+grd=ctx2.createLinearGradient(0,400,0,0)
 grd.addColorStop(1,"#00FF00")
 grd.addColorStop(0,"#FFFF00")
-ctx.strokeStyle = grd
-ctx.moveTo(400,0)
-ctx.lineTo(400,400)
-ctx.stroke()
+ctx2.strokeStyle = grd
+ctx2.moveTo(400,0)
+ctx2.lineTo(400,400)
+ctx2.stroke()
 
-ctx.beginPath()
-grd=ctx.createLinearGradient(0,0,400,0)
+ctx2.beginPath()
+grd=ctx2.createLinearGradient(0,0,400,0)
 grd.addColorStop(0,"#FF0000")
 grd.addColorStop(1,"#FFFF00")
-ctx.strokeStyle = grd
-ctx.moveTo(0,410)
-ctx.lineTo(400,410)
-ctx.stroke()
+ctx2.strokeStyle = grd
+ctx2.moveTo(0,410)
+ctx2.lineTo(400,410)
+ctx2.stroke()
 
 
-ctx.beginPath()
-ctx.moveTo(140, 60)
-ctx.quadraticCurveTo(170, 45, 200, 15)
-ctx.moveTo(200, 12)
-ctx.quadraticCurveTo(230, 43, 260, 61)
-ctx.moveTo(260, 60)
-ctx.lineTo(140, 60)
+ctx2.beginPath()
+ctx2.moveTo(140, 60)
+ctx2.quadraticCurveTo(170, 45, 200, 15)
+ctx2.moveTo(200, 12)
+ctx2.quadraticCurveTo(230, 43, 260, 61)
+ctx2.moveTo(260, 60)
+ctx2.lineTo(140, 60)
 
-ctx.moveTo(100, 120)
-ctx.quadraticCurveTo(150, 95, 180, 60)
-ctx.moveTo(220, 60)
-ctx.quadraticCurveTo(250, 95, 300, 120)
-ctx.moveTo(100, 120)
-ctx.lineTo(300, 120)
+ctx2.moveTo(100, 120)
+ctx2.quadraticCurveTo(150, 95, 180, 60)
+ctx2.moveTo(220, 60)
+ctx2.quadraticCurveTo(250, 95, 300, 120)
+ctx2.moveTo(100, 120)
+ctx2.lineTo(300, 120)
 
-ctx.moveTo(60, 190)
-ctx.quadraticCurveTo(120, 165, 160, 120)
-ctx.moveTo(240, 120)
-ctx.quadraticCurveTo(280, 165, 340, 190)
-ctx.moveTo(60, 190)
-ctx.lineTo(340, 190)
+ctx2.moveTo(60, 190)
+ctx2.quadraticCurveTo(120, 165, 160, 120)
+ctx2.moveTo(240, 120)
+ctx2.quadraticCurveTo(280, 165, 340, 190)
+ctx2.moveTo(60, 190)
+ctx2.lineTo(340, 190)
 
-ctx.moveTo(20, 270)
-ctx.quadraticCurveTo(80, 250, 140, 190)
-ctx.moveTo(260, 190)
-ctx.quadraticCurveTo(320, 250, 380, 270)
-ctx.moveTo(20, 270)
-ctx.lineTo(380, 270)
+ctx2.moveTo(20, 270)
+ctx2.quadraticCurveTo(80, 250, 140, 190)
+ctx2.moveTo(260, 190)
+ctx2.quadraticCurveTo(320, 250, 380, 270)
+ctx2.moveTo(20, 270)
+ctx2.lineTo(380, 270)
 
-ctx.lineWidth = 5
-ctx.strokeStyle = "#008800"
-ctx.stroke()
-
-
-ctx.fillStyle = "#663300"
-ctx.fillRect(180,271.5,40,129)
+ctx2.lineWidth = 5
+ctx2.strokeStyle = "#008800"
+ctx2.stroke()
 
 
-ctx.beginPath()
-ctx.fillStyle = "#9900FF"
-ctx.fillRect(260,340,60,60)
-ctx.stroke()
-
-ctx.moveTo(260,370)
-ctx.lineTo(320,370)
-
-ctx.moveTo(290,340)
-ctx.lineTo(290,400)
-
-ctx.moveTo(290,340)
-ctx.lineTo(260,320)
-
-ctx.moveTo(290,340)
-ctx.lineTo(280,300)
-
-ctx.moveTo(258,321)
-ctx.lineTo(282,300)
-
-ctx.moveTo(290,340)
-ctx.lineTo(300,300)
-
-ctx.moveTo(290,340)
-ctx.lineTo(320,320)
-
-ctx.moveTo(298,300)
-ctx.lineTo(322,320)
-
-ctx.lineWidth = 5
-ctx.strokeStyle = "#FFCC00"
-ctx.stroke()
+ctx2.fillStyle = "#663300"
+ctx2.fillRect(180,271.5,40,129)
 
 
-ctx.beginPath()
-ctx.fillStyle = "#000099"
-ctx.fillRect(60,340,100,60)
+ctx2.beginPath()
+ctx2.fillStyle = "#9900FF"
+ctx2.fillRect(260,340,60,60)
+ctx2.stroke()
 
-ctx.moveTo(60,370)
-ctx.lineTo(160,370)
+ctx2.moveTo(260,370)
+ctx2.lineTo(320,370)
 
-ctx.moveTo(110,340)
-ctx.lineTo(110,400)
+ctx2.moveTo(290,340)
+ctx2.lineTo(290,400)
 
-ctx.moveTo(111.5,341.5)
-ctx.lineTo(100,310)
+ctx2.moveTo(290,340)
+ctx2.lineTo(260,320)
 
-ctx.moveTo(111.5,341.5)
-ctx.lineTo(80,330)
+ctx2.moveTo(290,340)
+ctx2.lineTo(280,300)
 
-ctx.moveTo(101.5,310)
-ctx.lineTo(78.5,330)
+ctx2.moveTo(258,321)
+ctx2.lineTo(282,300)
 
-ctx.moveTo(111.5,341.5)
-ctx.lineTo(140,330)
+ctx2.moveTo(290,340)
+ctx2.lineTo(300,300)
 
-ctx.moveTo(111.5,341.5)
-ctx.lineTo(120,310)
+ctx2.moveTo(290,340)
+ctx2.lineTo(320,320)
 
-ctx.moveTo(141.5,330)
-ctx.lineTo(118.5,310)
+ctx2.moveTo(298,300)
+ctx2.lineTo(322,320)
 
-ctx.lineWidth = 5
-ctx.strokeStyle = "#CC0000"
-ctx.stroke()
-
-
-ctx.fillStyle = "#66CCFF"
-ctx.font = "23px Dutch801 XBd BT"
-ctx.fillText("Merry ",13,28)
-ctx.font = "23px Dutch801 XBd BT"
-ctx.fillText("Christmas",13,48)
-ctx.font = "23px Dutch801 XBd BT"
-ctx.fillText("&",13,68)
-ctx.font = "23px Dutch801 XBd BT"
-ctx.fillText("Happy New ",13,88)
-ctx.font = "23px Dutch801 XBd BT"
-ctx.fillText("Year ",13,108)
-ctx.stroke()
+ctx2.lineWidth = 5
+ctx2.strokeStyle = "#FFCC00"
+ctx2.stroke()
 
 
-ctx.beginPath()
+ctx2.beginPath()
+ctx2.fillStyle = "#000099"
+ctx2.fillRect(60,340,100,60)
 
-ctx.moveTo(210, 24)
-ctx.quadraticCurveTo(200, 50, 160, 60)
+ctx2.moveTo(60,370)
+ctx2.lineTo(160,370)
 
-ctx.moveTo(160,78)
-ctx.quadraticCurveTo(200, 110, 270, 120)
+ctx2.moveTo(110,340)
+ctx2.lineTo(110,400)
 
-ctx.moveTo(285, 160)
-ctx.quadraticCurveTo(250, 180, 200, 190)
+ctx2.moveTo(111.5,341.5)
+ctx2.lineTo(100,310)
 
-ctx.moveTo(280, 210)
-ctx.quadraticCurveTo(220, 240, 70, 270)
+ctx2.moveTo(111.5,341.5)
+ctx2.lineTo(80,330)
 
-ctx.lineWidth = 3
-ctx.strokeStyle = "#CC0000"
-ctx.stroke()
+ctx2.moveTo(101.5,310)
+ctx2.lineTo(78.5,330)
 
+ctx2.moveTo(111.5,341.5)
+ctx2.lineTo(140,330)
 
-ctx.beginPath()
+ctx2.moveTo(111.5,341.5)
+ctx2.lineTo(120,310)
 
-ctx.moveTo(225, 35)
-ctx.quadraticCurveTo(220, 55, 200, 58)
+ctx2.moveTo(141.5,330)
+ctx2.lineTo(118.5,310)
 
-ctx.moveTo(230, 70)
-ctx.quadraticCurveTo(200, 105, 130, 120)
-
-ctx.moveTo(130, 150)
-ctx.quadraticCurveTo(180, 180, 300, 190)
-
-ctx.moveTo(320, 240)
-ctx.quadraticCurveTo(300, 260, 210, 270)
-
-ctx.lineWidth = 3
-ctx.strokeStyle = "#FFFF33"
-ctx.stroke()
+ctx2.lineWidth = 5
+ctx2.strokeStyle = "#CC0000"
+ctx2.stroke()
 
 
-ctx.beginPath()
-
-ctx.moveTo(172,38)
-ctx.quadraticCurveTo(200, 50, 240, 60)
-
-
-ctx.moveTo(245, 85)
-ctx.quadraticCurveTo(240, 100, 190, 120)
-
-ctx.moveTo(260, 140)
-ctx.quadraticCurveTo(180, 180, 100, 190)
-
-ctx.moveTo(92, 230)
-ctx.quadraticCurveTo(250, 260, 330, 270)
-
-ctx.lineWidth = 3
-ctx.strokeStyle = "#0099FF"
-ctx.stroke()
+ctx2.fillStyle = "#66CCFF"
+ctx2.font = "23px Dutch801 XBd BT"
+ctx2.fillText("Merry ",13,28)
+ctx2.font = "23px Dutch801 XBd BT"
+ctx2.fillText("Christmas",13,48)
+ctx2.font = "23px Dutch801 XBd BT"
+ctx2.fillText("&",13,68)
+ctx2.font = "23px Dutch801 XBd BT"
+ctx2.fillText("Happy New ",13,88)
+ctx2.font = "23px Dutch801 XBd BT"
+ctx2.fillText("Year ",13,108)
+ctx2.stroke()
 
 
-ctx.beginPath()
-ctx.fillStyle = "#FF359A"
-ctx.font = "10px ScriptS"
-ctx.fillText("40423103 ",325,398)
-ctx.stroke()
+ctx2.beginPath()
+
+ctx2.moveTo(210, 24)
+ctx2.quadraticCurveTo(200, 50, 160, 60)
+
+ctx2.moveTo(160,78)
+ctx2.quadraticCurveTo(200, 110, 270, 120)
+
+ctx2.moveTo(285, 160)
+ctx2.quadraticCurveTo(250, 180, 200, 190)
+
+ctx2.moveTo(280, 210)
+ctx2.quadraticCurveTo(220, 240, 70, 270)
+
+ctx2.lineWidth = 3
+ctx2.strokeStyle = "#CC0000"
+ctx2.stroke()
+
+
+ctx2.beginPath()
+
+ctx2.moveTo(225, 35)
+ctx2.quadraticCurveTo(220, 55, 200, 58)
+
+ctx2.moveTo(230, 70)
+ctx2.quadraticCurveTo(200, 105, 130, 120)
+
+ctx2.moveTo(130, 150)
+ctx2.quadraticCurveTo(180, 180, 300, 190)
+
+ctx2.moveTo(320, 240)
+ctx2.quadraticCurveTo(300, 260, 210, 270)
+
+ctx2.lineWidth = 3
+ctx2.strokeStyle = "#FFFF33"
+ctx2.stroke()
+
+
+ctx2.beginPath()
+
+ctx2.moveTo(172,38)
+ctx2.quadraticCurveTo(200, 50, 240, 60)
+
+
+ctx2.moveTo(245, 85)
+ctx2.quadraticCurveTo(240, 100, 190, 120)
+
+ctx2.moveTo(260, 140)
+ctx2.quadraticCurveTo(180, 180, 100, 190)
+
+ctx2.moveTo(92, 230)
+ctx2.quadraticCurveTo(250, 260, 330, 270)
+
+ctx2.lineWidth = 3
+ctx2.strokeStyle = "#0099FF"
+ctx2.stroke()
+
+
+ctx2.beginPath()
+ctx2.fillStyle = "#FF359A"
+ctx2.font = "10px ScriptS"
+ctx2.fillText("40423103 ",325,398)
+ctx2.stroke()
 
 </script>
 
@@ -361,7 +361,7 @@ brython(1);
 
   <section>
   <h1>Tags</h1>
-    <a href="./tag/pelican.html">pelican</a>,    <a href="./tag/publishing.html">publishing</a>  </section>
+    <a href="./tag/publishing.html">publishing</a>,    <a href="./tag/pelican.html">pelican</a>  </section>
 
 
     <section>
