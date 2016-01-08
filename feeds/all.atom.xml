@@ -19,13 +19,10 @@ brython(1);
 &lt;script type="text/python3"&gt;
 # 導入 browser 模組中的 document, 並設為 doc 變數
 from browser import document as doc
-
 # 導入數學模組
 import math
-
 # 產生各小球的亂數速度用
 import random
-
 # 導入 browser 中的計時器, 建立動畫用
 import browser.timer
 
@@ -44,13 +41,13 @@ y = [None]*n
 vy = [None]*n
 vx = [None]*n
 # 重力加速度, Y 方向向下為正
-g = 0.1
+g = 0.05
 # 空氣的黏滯阻尼係數
 cor = 0.7 
 # 球的彈力係數
 fr = 0.95
 # 球的半徑
-r = 4
+r = 6
 
 for i in range(n):
     x[i] = 300
@@ -183,10 +180,11 @@ ctx2.stroke()
 
 
 ctx2.beginPath()
+
 ctx2.moveTo(140, 60)
-ctx2.quadraticCurveTo(170, 45, 200, 15)
-ctx2.moveTo(200, 12)
-ctx2.quadraticCurveTo(230, 43, 260, 61)
+ctx2.quadraticCurveTo(170, 45, 200, 10)
+ctx2.moveTo(200, 10)
+ctx2.quadraticCurveTo(230, 45, 260, 60)
 ctx2.moveTo(260, 60)
 ctx2.lineTo(140, 60)
 
@@ -212,6 +210,7 @@ ctx2.moveTo(20, 270)
 ctx2.lineTo(380, 270)
 
 ctx2.lineWidth = 5
+ctx2.lineCap="round"
 ctx2.strokeStyle = "#008800"
 ctx2.stroke()
 
@@ -237,8 +236,8 @@ ctx2.lineTo(260,320)
 ctx2.moveTo(290,340)
 ctx2.lineTo(280,300)
 
-ctx2.moveTo(258,321)
-ctx2.lineTo(282,300)
+ctx2.moveTo(260,320)
+ctx2.lineTo(280,300)
 
 ctx2.moveTo(290,340)
 ctx2.lineTo(300,300)
@@ -246,10 +245,11 @@ ctx2.lineTo(300,300)
 ctx2.moveTo(290,340)
 ctx2.lineTo(320,320)
 
-ctx2.moveTo(298,300)
-ctx2.lineTo(322,320)
+ctx2.moveTo(300,300)
+ctx2.lineTo(320,320)
 
 ctx2.lineWidth = 5
+ctx2.lineCap="round"
 ctx2.strokeStyle = "#FFCC00"
 ctx2.stroke()
 
@@ -264,25 +264,26 @@ ctx2.lineTo(160,370)
 ctx2.moveTo(110,340)
 ctx2.lineTo(110,400)
 
-ctx2.moveTo(111.5,341.5)
+ctx2.moveTo(110,340)
 ctx2.lineTo(100,310)
 
-ctx2.moveTo(111.5,341.5)
+ctx2.moveTo(110,340)
 ctx2.lineTo(80,330)
 
-ctx2.moveTo(101.5,310)
-ctx2.lineTo(78.5,330)
+ctx2.moveTo(100,310)
+ctx2.lineTo(80,330)
 
-ctx2.moveTo(111.5,341.5)
+ctx2.moveTo(110,340)
 ctx2.lineTo(140,330)
 
-ctx2.moveTo(111.5,341.5)
+ctx2.moveTo(110,340)
 ctx2.lineTo(120,310)
 
-ctx2.moveTo(141.5,330)
-ctx2.lineTo(118.5,310)
+ctx2.moveTo(140,330)
+ctx2.lineTo(120,310)
 
 ctx2.lineWidth = 5
+ctx2.lineCap="round"
 ctx2.strokeStyle = "#CC0000"
 ctx2.stroke()
 
@@ -303,10 +304,10 @@ ctx2.stroke()
 
 ctx2.beginPath()
 
-ctx2.moveTo(210, 24)
+ctx2.moveTo(210, 25)
 ctx2.quadraticCurveTo(200, 50, 160, 60)
 
-ctx2.moveTo(160,78)
+ctx2.moveTo(160,80)
 ctx2.quadraticCurveTo(200, 110, 270, 120)
 
 ctx2.moveTo(285, 160)
@@ -316,6 +317,7 @@ ctx2.moveTo(280, 210)
 ctx2.quadraticCurveTo(220, 240, 70, 270)
 
 ctx2.lineWidth = 3
+ctx2.lineCap="round"
 ctx2.strokeStyle = "#CC0000"
 ctx2.stroke()
 
@@ -323,7 +325,7 @@ ctx2.stroke()
 ctx2.beginPath()
 
 ctx2.moveTo(225, 35)
-ctx2.quadraticCurveTo(220, 55, 200, 58)
+ctx2.quadraticCurveTo(220, 55, 200, 60)
 
 ctx2.moveTo(230, 70)
 ctx2.quadraticCurveTo(200, 105, 130, 120)
@@ -335,13 +337,14 @@ ctx2.moveTo(320, 240)
 ctx2.quadraticCurveTo(300, 260, 210, 270)
 
 ctx2.lineWidth = 3
+ctx2.lineCap="round"
 ctx2.strokeStyle = "#FFFF33"
 ctx2.stroke()
 
 
 ctx2.beginPath()
 
-ctx2.moveTo(172,38)
+ctx2.moveTo(172,40)
 ctx2.quadraticCurveTo(200, 50, 240, 60)
 
 
@@ -351,10 +354,11 @@ ctx2.quadraticCurveTo(240, 100, 190, 120)
 ctx2.moveTo(260, 140)
 ctx2.quadraticCurveTo(180, 180, 100, 190)
 
-ctx2.moveTo(92, 230)
+ctx2.moveTo(90, 230)
 ctx2.quadraticCurveTo(250, 260, 330, 270)
 
 ctx2.lineWidth = 3
+ctx2.lineCap="round"
 ctx2.strokeStyle = "#0099FF"
 ctx2.stroke()
 
@@ -364,6 +368,7 @@ ctx2.fillStyle = "#FF359A"
 ctx2.font = "10px ScriptS"
 ctx2.fillText("40423103 ",325,398)
 ctx2.stroke()
+
 
 &lt;/script&gt;
 
