@@ -52,7 +52,8 @@
 <time datetime="2015-12-24T19:41:00+08:00" pubdate>週四 24 十二月 2015</time>    </p>
 </header>
 
-  <div class="entry-content"><!-- 導入 brython.js -->
+  <div class="entry-content"><h1>利用for迴圈重複畫直線</h1>
+<!-- 導入 brython.js -->
 
 <script type="text/javascript" src="http://brython.info/src/brython_dist.js"></script>
 
@@ -101,7 +102,93 @@ for i in range(11):
 window.onload=function(){
 brython(1);
 }
-</script></div>
+</script>
+
+<h2>以下為程式碼：</h2>
+<div class="highlight"><pre><span class="c">&lt;!-- 導入 brython.js --&gt;</span>
+
+<span class="nt">&lt;script </span><span class="na">type=</span><span class="s">&quot;text/javascript&quot;</span> <span class="na">src=</span><span class="s">&quot;http://brython.info/src/brython_dist.js&quot;</span><span class="nt">&gt;&lt;/script&gt;</span>
+
+
+<span class="c">&lt;!-- 啟動 brython() --&gt;</span>
+
+<span class="nt">&lt;script&gt;</span>
+<span class="nb">window</span><span class="p">.</span><span class="nx">onload</span><span class="o">=</span><span class="kd">function</span><span class="p">(){</span>
+<span class="nx">brython</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="nt">&lt;/script&gt;</span>
+
+<span class="c">&lt;!-- 以下利用 Brython 程式執行繪圖 --&gt;</span>
+
+<span class="nt">&lt;canvas</span> <span class="na">id=</span><span class="s">&quot;plotarea1&quot;</span> <span class="na">width=</span><span class="s">&quot;200&quot;</span> <span class="na">height=</span><span class="s">&quot;200&quot;</span><span class="nt">&gt;&lt;/canvas&gt;</span>
+
+<span class="nt">&lt;script </span><span class="na">type=</span><span class="s">&quot;text/python3&quot;</span><span class="nt">&gt;</span>
+<span class="err">#</span> <span class="nx">導入</span> <span class="nx">doc</span>
+<span class="nx">from</span> <span class="nx">browser</span> <span class="kr">import</span> <span class="nb">document</span> <span class="nx">as</span> <span class="nx">doc</span>
+<span class="nx">from</span> <span class="nx">browser</span> <span class="kr">import</span> <span class="nx">console</span>
+<span class="kr">import</span> <span class="nx">math</span>
+
+<span class="err">#</span> <span class="nx">準備繪圖畫布</span>
+<span class="nx">canvas1</span> <span class="o">=</span> <span class="nx">doc</span><span class="p">[</span><span class="s2">&quot;plotarea1&quot;</span><span class="p">]</span>
+<span class="nx">ctx1</span> <span class="o">=</span> <span class="nx">canvas1</span><span class="p">.</span><span class="nx">getContext</span><span class="p">(</span><span class="s2">&quot;2d&quot;</span><span class="p">)</span>
+
+<span class="err">#</span> <span class="nx">開始畫直線</span>
+<span class="k">for</span> <span class="nx">i</span> <span class="k">in</span> <span class="nx">range</span><span class="p">(</span><span class="mi">11</span><span class="p">)</span><span class="o">:</span>
+    <span class="nx">ctx1</span><span class="p">.</span><span class="nx">beginPath</span><span class="p">()</span>
+    <span class="nx">ctx1</span><span class="p">.</span><span class="nx">lineWidth</span> <span class="o">=</span> <span class="mi">5</span>
+    <span class="nx">ctx1</span><span class="p">.</span><span class="nx">moveTo</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="o">+</span><span class="nx">i</span><span class="o">*</span><span class="mi">20</span> <span class="p">)</span>
+    <span class="nx">ctx1</span><span class="p">.</span><span class="nx">lineTo</span><span class="p">(</span><span class="mi">200</span><span class="p">,</span><span class="mi">0</span><span class="o">+</span><span class="nx">i</span><span class="o">*</span><span class="mi">20</span> <span class="p">)</span>
+    <span class="nx">ctx1</span><span class="p">.</span><span class="nx">strokeStyle</span> <span class="o">=</span> <span class="s2">&quot;#0000ff&quot;</span>
+    <span class="nx">ctx1</span><span class="p">.</span><span class="nx">stroke</span><span class="p">()</span>
+<span class="k">for</span> <span class="nx">i</span> <span class="k">in</span> <span class="nx">range</span><span class="p">(</span><span class="mi">11</span><span class="p">)</span><span class="o">:</span>
+    <span class="nx">ctx1</span><span class="p">.</span><span class="nx">beginPath</span><span class="p">()</span>
+    <span class="nx">ctx1</span><span class="p">.</span><span class="nx">lineWidth</span> <span class="o">=</span> <span class="mi">5</span>
+    <span class="nx">ctx1</span><span class="p">.</span><span class="nx">moveTo</span><span class="p">(</span><span class="mi">0</span><span class="o">+</span><span class="nx">i</span><span class="o">*</span><span class="mi">20</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+    <span class="nx">ctx1</span><span class="p">.</span><span class="nx">lineTo</span><span class="p">(</span><span class="mi">0</span><span class="o">+</span><span class="nx">i</span><span class="o">*</span><span class="mi">20</span><span class="p">,</span> <span class="mi">200</span><span class="p">)</span>
+    <span class="nx">ctx1</span><span class="p">.</span><span class="nx">strokeStyle</span> <span class="o">=</span> <span class="s2">&quot;#FF0000&quot;</span>
+    <span class="nx">ctx1</span><span class="p">.</span><span class="nx">stroke</span><span class="p">()</span>
+
+
+<span class="nt">&lt;/script&gt;</span>
+
+
+<span class="nt">&lt;script&gt;</span>
+<span class="nb">window</span><span class="p">.</span><span class="nx">onload</span><span class="o">=</span><span class="kd">function</span><span class="p">(){</span>
+<span class="nx">brython</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="nt">&lt;/script&gt;</span>
+</pre></div>
+
+
+<h2>圖片講解</h2>
+<h3>1.畫布設定</h3>
+<p><a href="http://imgur.com/Sje2WRF"><img src="http://i.imgur.com/Sje2WRF.png" title="source: imgur.com" /></a></p>
+<h3>2.座標</h3>
+<p><a href="http://imgur.com/R3GNM3E"><img src="http://i.imgur.com/R3GNM3E.png" title="source: imgur.com" /></a></p>
+<h3>3.直線</h3>
+<p><a href="http://imgur.com/dxyhasC"><img src="http://i.imgur.com/dxyhasC.png" title="source: imgur.com" /></a>
+ <a href="http://imgur.com/kbFd9wt"><img src="http://i.imgur.com/kbFd9wt.png" title="source: imgur.com" /></a>
+ <a href="http://imgur.com/KHzOENM"><img src="http://i.imgur.com/KHzOENM.png" title="source: imgur.com" /></a>
+ <a href="http://imgur.com/50QFXXs"><img src="http://i.imgur.com/50QFXXs.png" title="source: imgur.com" /></a></p>
+<h3>4.矩形</h3>
+<p>填充
+ <a href="http://imgur.com/QQqhTDC"><img src="http://i.imgur.com/QQqhTDC.png" title="source: imgur.com" /></a>
+ <a href="http://imgur.com/WrsaO92"><img src="http://i.imgur.com/WrsaO92.png" title="source: imgur.com" /></a></p>
+<p>外框
+ <a href="http://imgur.com/397UdJC"><img src="http://i.imgur.com/397UdJC.png" title="source: imgur.com" /></a></p>
+<h3>5.圓形</h3>
+<p>空心
+ <a href="http://imgur.com/5vogWR4"><img src="http://i.imgur.com/5vogWR4.png" title="source: imgur.com" /></a></p>
+<p>實心
+ <a href="http://imgur.com/vnG58mv"><img src="http://i.imgur.com/vnG58mv.png" title="source: imgur.com" /></a></p>
+<h3>6.漸層</h3>
+<p><a href="http://imgur.com/yeB40q2"><img src="http://i.imgur.com/yeB40q2.png" title="source: imgur.com" /></a>
+<a href="http://imgur.com/3g1qBzW"><img src="http://i.imgur.com/3g1qBzW.png" title="source: imgur.com" /></a>
+<a href="http://imgur.com/cUEtsMZ"><img src="http://i.imgur.com/cUEtsMZ.png" title="source: imgur.com" /></a></p>
+<h3>7.文字</h3>
+<p><a href="http://imgur.com/9aJmfsS"><img src="http://i.imgur.com/9aJmfsS.png" title="source: imgur.com" /></a>
+ <a href="http://imgur.com/KmdmOfm"><img src="http://i.imgur.com/KmdmOfm.png" title="source: imgur.com" /></a>
+ <a href="http://imgur.com/W7bCFpY"><img src="http://i.imgur.com/W7bCFpY.png" title="source: imgur.com" /></a></p></div>
     <footer>
 <p class="meta">
   <span class="byline author vcard">
@@ -155,7 +242,7 @@ brython(1);
 
   <section>
   <h1>Tags</h1>
-    <a href="./tag/pelican.html">pelican</a>,    <a href="./tag/publishing.html">publishing</a>  </section>
+    <a href="./tag/publishing.html">publishing</a>,    <a href="./tag/pelican.html">pelican</a>  </section>
 
 
     <section>

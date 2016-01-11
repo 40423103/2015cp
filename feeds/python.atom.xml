@@ -376,7 +376,8 @@ ctx2.stroke()
 window.onload=function(){
 brython(1);
 }
-&lt;/script&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 第十四週</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w14.html" rel="alternate"></link><updated>2015-12-24T19:41:00+08:00</updated><author><name>劉怡萱</name></author><id>tag:coursemdetw.github.io,2015-12-24:reveal/2015cp_hw_w14.html</id><summary type="html">&lt;!-- 導入 brython.js --&gt;
+&lt;/script&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 第十四週</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w14.html" rel="alternate"></link><updated>2015-12-24T19:41:00+08:00</updated><author><name>劉怡萱</name></author><id>tag:coursemdetw.github.io,2015-12-24:reveal/2015cp_hw_w14.html</id><summary type="html">&lt;h1&gt;利用for迴圈重複畫直線&lt;/h1&gt;
+&lt;!-- 導入 brython.js --&gt;
 
 &lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
 
@@ -425,7 +426,93 @@ for i in range(11):
 window.onload=function(){
 brython(1);
 }
-&lt;/script&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式作業 第十二週</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w12.html" rel="alternate"></link><updated>2015-12-05T20:45:00+08:00</updated><author><name>劉怡萱</name></author><id>tag:coursemdetw.github.io,2015-12-05:reveal/2015cp_hw_w12.html</id><summary type="html">&lt;h1&gt;猜數字遊戲&lt;/h1&gt;
+&lt;/script&gt;
+
+&lt;h2&gt;以下為程式碼：&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="c"&gt;&amp;lt;!-- 導入 brython.js --&amp;gt;&lt;/span&gt;
+
+&lt;span class="nt"&gt;&amp;lt;script &lt;/span&gt;&lt;span class="na"&gt;type=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;text/javascript&amp;quot;&lt;/span&gt; &lt;span class="na"&gt;src=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;http://brython.info/src/brython_dist.js&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+
+
+&lt;span class="c"&gt;&amp;lt;!-- 啟動 brython() --&amp;gt;&lt;/span&gt;
+
+&lt;span class="nt"&gt;&amp;lt;script&amp;gt;&lt;/span&gt;
+&lt;span class="nb"&gt;window&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;onload&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(){&lt;/span&gt;
+&lt;span class="nx"&gt;brython&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+
+&lt;span class="c"&gt;&amp;lt;!-- 以下利用 Brython 程式執行繪圖 --&amp;gt;&lt;/span&gt;
+
+&lt;span class="nt"&gt;&amp;lt;canvas&lt;/span&gt; &lt;span class="na"&gt;id=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;plotarea1&amp;quot;&lt;/span&gt; &lt;span class="na"&gt;width=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;200&amp;quot;&lt;/span&gt; &lt;span class="na"&gt;height=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;200&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&amp;lt;/canvas&amp;gt;&lt;/span&gt;
+
+&lt;span class="nt"&gt;&amp;lt;script &lt;/span&gt;&lt;span class="na"&gt;type=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;text/python3&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
+&lt;span class="err"&gt;#&lt;/span&gt; &lt;span class="nx"&gt;導入&lt;/span&gt; &lt;span class="nx"&gt;doc&lt;/span&gt;
+&lt;span class="nx"&gt;from&lt;/span&gt; &lt;span class="nx"&gt;browser&lt;/span&gt; &lt;span class="kr"&gt;import&lt;/span&gt; &lt;span class="nb"&gt;document&lt;/span&gt; &lt;span class="nx"&gt;as&lt;/span&gt; &lt;span class="nx"&gt;doc&lt;/span&gt;
+&lt;span class="nx"&gt;from&lt;/span&gt; &lt;span class="nx"&gt;browser&lt;/span&gt; &lt;span class="kr"&gt;import&lt;/span&gt; &lt;span class="nx"&gt;console&lt;/span&gt;
+&lt;span class="kr"&gt;import&lt;/span&gt; &lt;span class="nx"&gt;math&lt;/span&gt;
+
+&lt;span class="err"&gt;#&lt;/span&gt; &lt;span class="nx"&gt;準備繪圖畫布&lt;/span&gt;
+&lt;span class="nx"&gt;canvas1&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;doc&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;plotarea1&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;span class="nx"&gt;ctx1&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;canvas1&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;getContext&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;2d&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="err"&gt;#&lt;/span&gt; &lt;span class="nx"&gt;開始畫直線&lt;/span&gt;
+&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="nx"&gt;i&lt;/span&gt; &lt;span class="k"&gt;in&lt;/span&gt; &lt;span class="nx"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;11&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
+    &lt;span class="nx"&gt;ctx1&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;beginPath&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+    &lt;span class="nx"&gt;ctx1&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;lineWidth&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;5&lt;/span&gt;
+    &lt;span class="nx"&gt;ctx1&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;moveTo&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="nx"&gt;i&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="mi"&gt;20&lt;/span&gt; &lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="nx"&gt;ctx1&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;lineTo&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;200&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="nx"&gt;i&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="mi"&gt;20&lt;/span&gt; &lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="nx"&gt;ctx1&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;strokeStyle&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;#0000ff&amp;quot;&lt;/span&gt;
+    &lt;span class="nx"&gt;ctx1&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;stroke&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="nx"&gt;i&lt;/span&gt; &lt;span class="k"&gt;in&lt;/span&gt; &lt;span class="nx"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;11&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
+    &lt;span class="nx"&gt;ctx1&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;beginPath&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+    &lt;span class="nx"&gt;ctx1&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;lineWidth&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;5&lt;/span&gt;
+    &lt;span class="nx"&gt;ctx1&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;moveTo&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="nx"&gt;i&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="mi"&gt;20&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="nx"&gt;ctx1&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;lineTo&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="nx"&gt;i&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="mi"&gt;20&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;200&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="nx"&gt;ctx1&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;strokeStyle&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;#FF0000&amp;quot;&lt;/span&gt;
+    &lt;span class="nx"&gt;ctx1&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;stroke&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+
+
+&lt;span class="nt"&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+
+
+&lt;span class="nt"&gt;&amp;lt;script&amp;gt;&lt;/span&gt;
+&lt;span class="nb"&gt;window&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;onload&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(){&lt;/span&gt;
+&lt;span class="nx"&gt;brython&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;圖片講解&lt;/h2&gt;
+&lt;h3&gt;1.畫布設定&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://imgur.com/Sje2WRF"&gt;&lt;img src="http://i.imgur.com/Sje2WRF.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;2.座標&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://imgur.com/R3GNM3E"&gt;&lt;img src="http://i.imgur.com/R3GNM3E.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;3.直線&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://imgur.com/dxyhasC"&gt;&lt;img src="http://i.imgur.com/dxyhasC.png" title="source: imgur.com" /&gt;&lt;/a&gt;
+ &lt;a href="http://imgur.com/kbFd9wt"&gt;&lt;img src="http://i.imgur.com/kbFd9wt.png" title="source: imgur.com" /&gt;&lt;/a&gt;
+ &lt;a href="http://imgur.com/KHzOENM"&gt;&lt;img src="http://i.imgur.com/KHzOENM.png" title="source: imgur.com" /&gt;&lt;/a&gt;
+ &lt;a href="http://imgur.com/50QFXXs"&gt;&lt;img src="http://i.imgur.com/50QFXXs.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;4.矩形&lt;/h3&gt;
+&lt;p&gt;填充
+ &lt;a href="http://imgur.com/QQqhTDC"&gt;&lt;img src="http://i.imgur.com/QQqhTDC.png" title="source: imgur.com" /&gt;&lt;/a&gt;
+ &lt;a href="http://imgur.com/WrsaO92"&gt;&lt;img src="http://i.imgur.com/WrsaO92.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;外框
+ &lt;a href="http://imgur.com/397UdJC"&gt;&lt;img src="http://i.imgur.com/397UdJC.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;5.圓形&lt;/h3&gt;
+&lt;p&gt;空心
+ &lt;a href="http://imgur.com/5vogWR4"&gt;&lt;img src="http://i.imgur.com/5vogWR4.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;實心
+ &lt;a href="http://imgur.com/vnG58mv"&gt;&lt;img src="http://i.imgur.com/vnG58mv.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;6.漸層&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://imgur.com/yeB40q2"&gt;&lt;img src="http://i.imgur.com/yeB40q2.png" title="source: imgur.com" /&gt;&lt;/a&gt;
+&lt;a href="http://imgur.com/3g1qBzW"&gt;&lt;img src="http://i.imgur.com/3g1qBzW.png" title="source: imgur.com" /&gt;&lt;/a&gt;
+&lt;a href="http://imgur.com/cUEtsMZ"&gt;&lt;img src="http://i.imgur.com/cUEtsMZ.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;7.文字&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://imgur.com/9aJmfsS"&gt;&lt;img src="http://i.imgur.com/9aJmfsS.png" title="source: imgur.com" /&gt;&lt;/a&gt;
+ &lt;a href="http://imgur.com/KmdmOfm"&gt;&lt;img src="http://i.imgur.com/KmdmOfm.png" title="source: imgur.com" /&gt;&lt;/a&gt;
+ &lt;a href="http://imgur.com/W7bCFpY"&gt;&lt;img src="http://i.imgur.com/W7bCFpY.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式作業 第十二週</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w12.html" rel="alternate"></link><updated>2015-12-05T20:45:00+08:00</updated><author><name>劉怡萱</name></author><id>tag:coursemdetw.github.io,2015-12-05:reveal/2015cp_hw_w12.html</id><summary type="html">&lt;h1&gt;猜數字遊戲&lt;/h1&gt;
 &lt;h3&gt;解析&lt;/h3&gt;
 &lt;p&gt;~投影片不好做直接上圖~
 &lt;a href="http://imgur.com/FxIA2DT"&gt;&lt;img src="http://i.imgur.com/FxIA2DT.jpg" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
