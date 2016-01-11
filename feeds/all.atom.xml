@@ -378,6 +378,8 @@ brython(1);
 }
 &lt;/script&gt;
 
+&lt;h3&gt;影片解說&lt;/h3&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/151152036" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="https://vimeo.com/151152036"&gt;畫圖&lt;/a&gt; from &lt;a href="https://vimeo.com/user45467634"&gt;劉怡萱&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
 &lt;h2&gt;圖片講解&lt;/h2&gt;
 &lt;h3&gt;1.畫布設定&lt;/h3&gt;
 &lt;p&gt;&lt;a href="http://imgur.com/Sje2WRF"&gt;&lt;img src="http://i.imgur.com/Sje2WRF.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
