@@ -382,33 +382,33 @@ brython(1);
 &lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/151152036" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="https://vimeo.com/151152036"&gt;畫圖&lt;/a&gt; from &lt;a href="https://vimeo.com/user45467634"&gt;劉怡萱&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
 &lt;h2&gt;圖片講解&lt;/h2&gt;
 &lt;h3&gt;1.畫布設定&lt;/h3&gt;
-&lt;p&gt;&lt;a href="http://imgur.com/Sje2WRF"&gt;&lt;img src="http://i.imgur.com/Sje2WRF.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/Sje2WRF.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;2.座標&lt;/h3&gt;
-&lt;p&gt;&lt;a href="http://imgur.com/R3GNM3E"&gt;&lt;img src="http://i.imgur.com/R3GNM3E.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/R3GNM3E.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;3.直線&lt;/h3&gt;
-&lt;p&gt;&lt;a href="http://imgur.com/dxyhasC"&gt;&lt;img src="http://i.imgur.com/dxyhasC.png" title="source: imgur.com" /&gt;&lt;/a&gt;
- &lt;a href="http://imgur.com/kbFd9wt"&gt;&lt;img src="http://i.imgur.com/kbFd9wt.png" title="source: imgur.com" /&gt;&lt;/a&gt;
- &lt;a href="http://imgur.com/KHzOENM"&gt;&lt;img src="http://i.imgur.com/KHzOENM.png" title="source: imgur.com" /&gt;&lt;/a&gt;
- &lt;a href="http://imgur.com/50QFXXs"&gt;&lt;img src="http://i.imgur.com/50QFXXs.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/dxyhasC.png" title="source: imgur.com" /&gt;&lt;/a&gt;
+&lt;img src="http://i.imgur.com/kbFd9wt.png" title="source: imgur.com" /&gt;&lt;/a&gt;
+&lt;img src="http://i.imgur.com/KHzOENM.png" title="source: imgur.com" /&gt;&lt;/a&gt;
+&lt;img src="http://i.imgur.com/50QFXXs.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;4.矩形&lt;/h3&gt;
 &lt;p&gt;填充
- &lt;a href="http://imgur.com/QQqhTDC"&gt;&lt;img src="http://i.imgur.com/QQqhTDC.png" title="source: imgur.com" /&gt;&lt;/a&gt;
- &lt;a href="http://imgur.com/WrsaO92"&gt;&lt;img src="http://i.imgur.com/WrsaO92.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;img src="http://i.imgur.com/QQqhTDC.png" title="source: imgur.com" /&gt;&lt;/a&gt;
+&lt;img src="http://i.imgur.com/WrsaO92.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;外框
- &lt;a href="http://imgur.com/397UdJC"&gt;&lt;img src="http://i.imgur.com/397UdJC.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;img src="http://i.imgur.com/397UdJC.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;5.圓形&lt;/h3&gt;
 &lt;p&gt;空心
- &lt;a href="http://imgur.com/5vogWR4"&gt;&lt;img src="http://i.imgur.com/5vogWR4.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;img src="http://i.imgur.com/5vogWR4.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;實心
- &lt;a href="http://imgur.com/vnG58mv"&gt;&lt;img src="http://i.imgur.com/vnG58mv.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;img src="http://i.imgur.com/vnG58mv.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;6.漸層&lt;/h3&gt;
-&lt;p&gt;&lt;a href="http://imgur.com/yeB40q2"&gt;&lt;img src="http://i.imgur.com/yeB40q2.png" title="source: imgur.com" /&gt;&lt;/a&gt;
-&lt;a href="http://imgur.com/3g1qBzW"&gt;&lt;img src="http://i.imgur.com/3g1qBzW.png" title="source: imgur.com" /&gt;&lt;/a&gt;
-&lt;a href="http://imgur.com/cUEtsMZ"&gt;&lt;img src="http://i.imgur.com/cUEtsMZ.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/yeB40q2.png" title="source: imgur.com" /&gt;&lt;/a&gt;
+&lt;img src="http://i.imgur.com/3g1qBzW.png" title="source: imgur.com" /&gt;&lt;/a&gt;
+&lt;img src="http://i.imgur.com/cUEtsMZ.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;7.文字&lt;/h3&gt;
-&lt;p&gt;&lt;a href="http://imgur.com/9aJmfsS"&gt;&lt;img src="http://i.imgur.com/9aJmfsS.png" title="source: imgur.com" /&gt;&lt;/a&gt;
- &lt;a href="http://imgur.com/KmdmOfm"&gt;&lt;img src="http://i.imgur.com/KmdmOfm.png" title="source: imgur.com" /&gt;&lt;/a&gt;
- &lt;a href="http://imgur.com/W7bCFpY"&gt;&lt;img src="http://i.imgur.com/W7bCFpY.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式作業 第十四週</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w14.html" rel="alternate"></link><updated>2015-12-24T19:41:00+08:00</updated><author><name>劉怡萱</name></author><id>tag:coursemdetw.github.io,2015-12-24:reveal/2015cp_hw_w14.html</id><summary type="html">&lt;h1&gt;利用for迴圈重複畫直線&lt;/h1&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/9aJmfsS.png" title="source: imgur.com" /&gt;&lt;/a&gt;
+ &lt;img src="http://i.imgur.com/KmdmOfm.png" title="source: imgur.com" /&gt;&lt;/a&gt;
+ &lt;img src="http://i.imgur.com/W7bCFpY.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式作業 第十四週</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w14.html" rel="alternate"></link><updated>2015-12-24T19:41:00+08:00</updated><author><name>劉怡萱</name></author><id>tag:coursemdetw.github.io,2015-12-24:reveal/2015cp_hw_w14.html</id><summary type="html">&lt;h1&gt;利用for迴圈重複畫直線&lt;/h1&gt;
 &lt;!-- 導入 brython.js --&gt;
 
 &lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
@@ -516,11 +516,11 @@ brython(1);
 &lt;/pre&gt;&lt;/div&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式作業 第十二週</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w12.html" rel="alternate"></link><updated>2015-12-05T20:45:00+08:00</updated><author><name>劉怡萱</name></author><id>tag:coursemdetw.github.io,2015-12-05:reveal/2015cp_hw_w12.html</id><summary type="html">&lt;h1&gt;猜數字遊戲&lt;/h1&gt;
 &lt;h3&gt;解析&lt;/h3&gt;
 &lt;p&gt;~投影片不好做直接上圖~
-&lt;a href="http://imgur.com/FxIA2DT"&gt;&lt;img src="http://i.imgur.com/FxIA2DT.jpg" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;img src="http://i.imgur.com/FxIA2DT.jpg" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;影片解析&lt;/h3&gt;
 &lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/147890116" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="https://vimeo.com/147890116"&gt;Guess_Number&lt;/a&gt; from &lt;a href="https://vimeo.com/user45467634"&gt;劉怡萱&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
 &lt;h3&gt;流程&lt;/h3&gt;
-&lt;p&gt;&lt;a href="http://imgur.com/Vb0uBlB"&gt;&lt;img src="http://i.imgur.com/Vb0uBlB.jpg" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/Vb0uBlB.jpg" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;心得&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;看這些程式碼自己都大概懂他的意思&lt;/p&gt;
